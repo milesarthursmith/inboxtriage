@@ -55,7 +55,11 @@ One self-contained HTML file, inline CSS, phone-first, via `SendUserFile`:
 1. **Waiting on you** — sender, one line, a complete draft reply. Never create
    Gmail drafts, never send.
 2. **Open actions** — deadlines, unpaid bills, applications.
-3. **Archived** — by sender, so any can be undone.
+3. **Archived** — this is the review, and it happens after the fact, so make it
+   readable. Counts by sender for the bulk. But list **individually, with a
+   one-line reason**, anything that was a close call: mail from a real person's
+   address, anything with money or a date in it, anything you hesitated over.
+   Fifty Uber receipts are one line. One judgement call is one line each.
 
 Then update `state.json` — `frontier`, `inbox_count`, last 5 runs — and push.
 **If `inbox_count` hasn't fallen across 5 runs, say so at the top of the brief.**
