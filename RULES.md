@@ -62,13 +62,25 @@ highest-yield archivable bucket here.
 
 ## Hard guards — never archive
 
-- Any conversation (see above).
-- Health **results, referrals, prescriptions**. Appointment *reminders and
-  confirmations* expire once the appointment passes — logistics, not records.
-- Travel documents for a trip that has not finished.
-- Anything you have positive reason to believe is unpaid or owed.
-- An open application or negotiation still running by email.
-- Stored credentials the message says to keep.
+Archiving is not deleting. Everything archived stays in All Mail and is one
+search away. So a wrong archive does not lose data — it loses **attention**.
+That is the only harm, and it is the only thing worth guarding against.
+
+Which means a guard earns its place only if the thing needs action inside a
+window. Two do:
+
+- **A conversation where someone is waiting on Miles.**
+- **An open action with a deadline ahead** — an unpaid bill, a form, an
+  application, an order to collect.
+
+That is the whole list.
+
+Records, credentials, health results, past travel documents, receipts and
+statements are retrieved by *searching* for them, never by scrolling the inbox.
+Archiving those costs nothing. Do not build guards for them.
+
+When genuinely torn: archive. It is reversible, the brief lists what went, and
+an inbox nobody trusts to be current is worse than one missing a receipt.
 
 ## The run
 
