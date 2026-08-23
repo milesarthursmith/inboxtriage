@@ -63,10 +63,29 @@ and `category:social`, no-reply and notification-only sending domains. Anything
 outside that gets read before it gets archived. A rule that archives unread mail
 on category alone is unsafe, however convenient.
 
-**9. There is no batch label API.** One call per thread to archive.
+**9. There is no batch label API in the connected Gmail connector.** One call
+per thread to archive. Third-party servers offer one (`batch_modify_emails`,
+`gongrzhe/gmail-mcp-server`) — not in the connector registry, graded F, identity
+unverified, write scope over the whole mailbox.
 
 *Therefore:* the expensive part is classification, not archiving. Let Gmail do
 the set arithmetic with one query rather than reading threads one at a time.
+
+*And therefore, do not chase a batch tool.* Three reasons, in order of weight:
+
+1. **The constraint is load-bearing.** One call per thread makes archiving
+   things you have not read inconvenient. That inconvenience is the only thing
+   standing between this system and the bug it already had once — a rule that
+   swept `category:updates` unread. A batch tool makes the wrong thing easy.
+2. **It optimises the cheap step.** Per principle 8 the irreducible cost is
+   reading. Archive calls fire tens at a time and return nothing; they have
+   never been the bottleneck.
+3. **Unverified write access to a mailbox holding mortgage, legal, banking and
+   medical correspondence**, to save minutes on a step that was not slow.
+
+If a genuine one-off purge of thousands ever comes up — where classification is
+trivial and mechanical — revisit it then, as a one-time job, not as part of this
+task's standing toolset.
 
 ---
 
