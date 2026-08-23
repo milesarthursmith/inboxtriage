@@ -51,9 +51,9 @@ is often the most valuable mail in the inbox. For an unknown sender the question
 is whether a person wrote the message, not whether there is history.
 
 *Therefore also:* no list of people, and no derivation, can settle this from a
-sender address alone. See principle 9.
+sender address alone. See principle 8.
 
-**9. Deciding whether a person wrote something requires reading it.** No
+**8. Deciding whether a person wrote something requires reading it.** No
 address pattern, Gmail category or search operator settles it. `rent@sitngo.me`
 is a person; `hello@exa.ai` is not; neither is knowable from the address.
 
@@ -63,7 +63,7 @@ and `category:social`, no-reply and notification-only sending domains. Anything
 outside that gets read before it gets archived. A rule that archives unread mail
 on category alone is unsafe, however convenient.
 
-**8. There is no batch label API.** One call per thread to archive.
+**9. There is no batch label API.** One call per thread to archive.
 
 *Therefore:* the expensive part is classification, not archiving. Let Gmail do
 the set arithmetic with one query rather than reading threads one at a time.

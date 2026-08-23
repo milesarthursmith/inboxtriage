@@ -24,7 +24,7 @@ Per principle 7, `from:<address> in:sent` confirms a correspondent but can
 never rule one out — a first-time sender has no history, and that is often the
 mail that matters most.
 
-Per principle 9, this cannot be settled from an address. So:
+Per principle 8, this cannot be settled from an address. So:
 
 - `category:promotions` and `category:social` → archive unread. Safe.
 - No-reply and notification-only sending domains → archive unread. Safe.
