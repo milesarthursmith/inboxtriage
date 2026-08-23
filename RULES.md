@@ -10,11 +10,11 @@ reads. `CORRECTIONS.md` beats this file.
 2. **Nothing is safe to archive unread.** Not by sender, not by Gmail category.
    `express@airbnb.com` is a no-reply address that relays real people; Gmail
    files pharmacy reminders and live flight bookings under Promotions. Read it,
-   or leave it. *One accepted exception:* the companion `Inbox tidy` task sweeps
-   `category:promotions` and `category:social` unread every two hours. That is a
-   deliberate risk, taken because it works — promotions sits at ~2 threads — and
-   it is also why a pharmacy reminder once ended up in the sweep. This task does
-   not re-sweep those categories. It reads what tidy left.
+   or leave it. No exceptions. There used to be a companion `Inbox tidy` task
+   that swept `category:promotions` and `category:social` unread every two
+   hours; it handled about 2 threads a day, and the one thing it reliably
+   produced was the wrongly archived pharmacy reminder in `FIXTURES.md`. It is
+   gone. This task reads the whole inbox, promotions and social included.
 3. **`search_threads` has no sort parameter** — always newest-first. "Oldest
    first" is unimplementable. Use absolute date windows.
 4. **Removing `UNREAD` can't be undone**, so the brief must list what was
