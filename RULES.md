@@ -1,5 +1,8 @@
 # Triage rules
 
+Read `PRINCIPLES.md` first. Every rule below derives from a principle there.
+If you find one that doesn't, it is a guess — delete it rather than obey it.
+
 `CORRECTIONS.md` beats everything here.
 
 ## The model

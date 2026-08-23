@@ -7,9 +7,14 @@ This repo is where it remembers.
 
 | File | Who writes it | What it holds |
 |---|---|---|
+| `PRINCIPLES.md` | Nobody — it's fixed | Facts about Gmail. Rules must derive from these. |
 | `RULES.md` | Claude, on request | The triage logic. Change this to change behaviour. |
 | `CORRECTIONS.md` | Miles | Overrides. Append-only. Every run reads it and obeys. |
 | `state.json` | Each run | Backlog frontier, inbox counts, last 5 runs. |
+
+`PRINCIPLES.md` exists because rules that aren't derived from a stated fact
+can't be checked against it, so they can't be caught being wrong. Every bad
+rule this system has had was a plausible-sounding guess that nothing tested.
 
 ## How a run works
 
