@@ -41,10 +41,27 @@ thread is automated.
 *Therefore:* use them before writing keyword heuristics. `category:updates` is
 the highest-yield archivable bucket.
 
-**7. `in:sent` is ground truth for who Miles corresponds with.**
+**7. `in:sent` proves someone IS a correspondent. It does not prove someone
+ISN'T.** It is a one-way test. Everyone Miles has replied to is there; everyone
+who has just written to him for the first time is not.
 
-*Therefore:* never maintain a list of people. Derive it. A list goes stale the
-moment someone new writes; the Sent folder never does.
+*Therefore:* use it to confirm, never to exclude. A first email from a new
+client, recruiter or solicitor has no history by definition — and first contact
+is often the most valuable mail in the inbox. For an unknown sender the question
+is whether a person wrote the message, not whether there is history.
+
+*Therefore also:* no list of people, and no derivation, can settle this from a
+sender address alone. See principle 9.
+
+**9. Deciding whether a person wrote something requires reading it.** No
+address pattern, Gmail category or search operator settles it. `rent@sitngo.me`
+is a person; `hello@exa.ai` is not; neither is knowable from the address.
+
+*Therefore:* the cost of triage is reading, and it cannot be optimised away.
+What CAN be skipped is reading the obviously-automated bulk — `category:promotions`
+and `category:social`, no-reply and notification-only sending domains. Anything
+outside that gets read before it gets archived. A rule that archives unread mail
+on category alone is unsafe, however convenient.
 
 **8. There is no batch label API.** One call per thread to archive.
 

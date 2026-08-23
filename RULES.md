@@ -13,20 +13,24 @@ opens mail on his phone without acting on it. Never scope a search to `is:unread
 
 Archive with `unlabel_thread`, labelIds `["INBOX","UNREAD"]` — always both.
 
-## Who is a person — derive it, never list it
+## Who is a person — read, don't guess
 
 A **conversation** is a thread where a real person other than Miles wrote a
 message. Conversations are never archived by this task, at any age, unless
 `CORRECTIONS.md` says otherwise or Miles says it is handled.
 
-Do not maintain a list of people. Derive it:
+Do not maintain a list of people, and do not try to derive one either.
+Per principle 7, `from:<address> in:sent` confirms a correspondent but can
+never rule one out — a first-time sender has no history, and that is often the
+mail that matters most.
 
-- `in:sent` is everyone Miles has ever replied to. That is the correspondent set.
-- For a sender you cannot place, search `from:<address> in:sent` — if he has
-  written to them, it is a conversation.
+Per principle 9, this cannot be settled from an address. So:
 
-A maintained list goes stale the moment someone new emails him. The Sent folder
-never does.
+- `category:promotions` and `category:social` → archive unread. Safe.
+- No-reply and notification-only sending domains → archive unread. Safe.
+- **Everything else gets read before it gets archived.** That is the cost of
+  the job. It cannot be optimised away, and a run that archives on category
+  alone is unsafe however fast it is.
 
 Marketing with a human signature, sales sequences, no-reply addresses and
 notification bots are NOT conversations. Mail Miles sent to himself is NOT a
@@ -88,19 +92,24 @@ an inbox nobody trusts to be current is worse than one missing a receipt.
 ## The run
 
 1. **Noise** — `in:inbox category:promotions`, `in:inbox category:social`.
-2. **Updates** — `in:inbox category:updates`, apply the expiry table. Main event.
-3. **Recent** — `in:inbox newer_than:14d`. Only `get_thread` on possible
-   conversations or replies.
+   Archive unread. This is the only unread-safe bucket.
+2. **Updates** — `in:inbox category:updates`. Sort into two piles by sender:
+   structurally automated (no-reply, notification-only domains) → archive per
+   the expiry table; everything else → read it first. Per principle 5 the
+   category label does not prove a thread is automated, so it cannot license
+   an unread archive on its own.
+3. **Recent** — `in:inbox newer_than:14d`. Read anything that could be a person.
 4. **Backlog** — from `state.json` → `frontier`. Work `in:inbox before:<frontier>`,
-   up to 80 threads. When a window returns only conversations, move the frontier
-   forward and record it.
+   same two-pile split. When a window returns only conversations, move the
+   frontier forward and record it.
 
 **`search_threads` has no sort parameter.** Gmail returns newest-first, always.
 "Oldest first" against `older_than:Nd` is unimplementable and will silently
 re-read the same recent slice forever. Absolute date windows only.
 
-Do not `get_thread` anything you are about to archive. Judge from sender and
-subject; use the derivation above when a sender is ambiguous.
+Reading is the cost of the job. Budget for it rather than designing around it.
+A run that gets through less mail but reads what it archives is doing better
+work than one that clears the backlog blind.
 
 ## Writing state
 
