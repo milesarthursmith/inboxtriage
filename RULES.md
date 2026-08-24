@@ -61,6 +61,11 @@ One self-contained HTML file, inline CSS, phone-first, via `SendUserFile`:
    address, anything with money or a date in it, anything you hesitated over.
    Fifty Uber receipts are one line. One judgement call is one line each.
 
+Then write the run to `runs/YYYY-MM-DD.md`: the same archived list, plus every
+close call with its one-line reason. The brief is delivered and gone; this file
+is the only durable record, and it is what the weekly review reads. Without it
+the review has nothing to measure.
+
 Then update `state.json` — `frontier`, `inbox_count`, last 5 runs — and push.
 **If `inbox_count` hasn't fallen across 5 runs, say so at the top of the brief.**
 That alarm is the thing that was missing while this ran for two weeks without
