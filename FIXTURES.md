@@ -20,6 +20,7 @@ this file needs updating with a reason. Never both silently.
 | 12 | Etihad booking 8SG35V, trip 24 Aug, read 23 Aug | **LEAVE** | Deadline ahead |
 | 13 | Same booking, read in October | ARCHIVE | Trip finished |
 | 14 | First email from a person with no reply history | **LEAVE** | Cannot be ruled out from the address. First contact is often the most valuable mail |
+| 16 | Gabriella "Evals" course-login thread, 5 Jun, 2 unread messages, never replied | ARCHIVE | Real person, but no question and no deadline — she never asked him anything. ~3 months stale, personal threads like this get handled offline per CORRECTIONS 2026-08-23. Settled 2026-08-29, checked against the inbox again on 2026-08-31 review: no pullback |
 
 ## One case where the rules disagree with themselves
 
