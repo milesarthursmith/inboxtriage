@@ -1,7 +1,7 @@
 {
-  "frontier": "2026/06/01",
-  "frontier_note": "Backlog is drained older than this. Pre-March is 33 human conversations plus 2 self-sent notes - nothing archivable there. Frontier held on 2026-08-29: the June window (2026/06/01-2026/07/01) had 11 threads and all 11 were archivable, so it does not advance yet.",
-  "inbox_count": 143,
+  "frontier": "2026/07/01",
+  "frontier_note": "Backlog is drained older than this. Pre-March is 33 human conversations plus 2 self-sent notes - nothing archivable there. Advanced on 2026-08-31: the June window (2026/06/01-2026/07/01) came back empty, so it moved from 2026/06/01 to 2026/07/01. The July window (2026/07/01-2026/08/01) was swept in the same run and yielded 12 archives, so the frontier holds here for the next run.",
+  "inbox_count": 90,
   "runs": [
     {
       "date": "2026-08-29",
@@ -9,6 +9,13 @@
       "inbox_count": 143,
       "backlog_window": "2026/06/01-2026/07/01",
       "note": "First recorded run. Inbox 245 -> 143. Newest-first through 23 Aug plus the June window. 11 threads left from the sweep: 2 people waiting, 4 open actions, 5 trips ahead."
+    },
+    {
+      "date": "2026-08-31",
+      "archived": 67,
+      "inbox_count": 90,
+      "backlog_window": "2026/06/01-2026/07/01 (empty, frontier advanced) then 2026/07/01-2026/08/01",
+      "note": "Inbox 157 -> 90; 14 threads had arrived since the 29th. Newest-first 80 threads (31 Aug back to 16 Jul) plus both backlog windows. 25 threads left from the sweep: 2 people waiting, 12 open actions, 11 travel threads still ahead. 34 of the 67 archives were judgement calls, each logged in runs/2026-08-31.md."
     }
   ]
 }
