@@ -1,7 +1,7 @@
 {
-  "frontier": "2026/06/01",
-  "frontier_note": "Backlog is drained older than this. Pre-March is 33 human conversations plus 2 self-sent notes - nothing archivable there. Frontier held on 2026-08-29: the June window (2026/06/01-2026/07/01) had 11 threads and all 11 were archivable, so it does not advance yet.",
-  "inbox_count": 143,
+  "frontier": "2026/08/01",
+  "frontier_note": "Advanced on 2026-09-01: the June window (2026/06/01-2026/07/01) came back empty and the July window (2026/07/01-2026/08/01) held 4 threads, all live (2 Airbnb stays ahead, 2 forwarded bookings that name Miles as a passenger, 1 Allianz unbanked cheque). The old note was wrong about what sits below the line: it said pre-March was 33 human conversations, but 17 threads from 1 Mar - 15 May had never been covered by any window. Those were read this run and 12 archived. What remains below 2026/03/01 is 35 human conversations from Oct 2025 - Feb 2026 plus 3 self-sent notes.",
+  "inbox_count": 63,
   "runs": [
     {
       "date": "2026-08-29",
@@ -9,6 +9,13 @@
       "inbox_count": 143,
       "backlog_window": "2026/06/01-2026/07/01",
       "note": "First recorded run. Inbox 245 -> 143. Newest-first through 23 Aug plus the June window. 11 threads left from the sweep: 2 people waiting, 4 open actions, 5 trips ahead."
+    },
+    {
+      "date": "2026-09-01",
+      "archived": 40,
+      "inbox_count": 63,
+      "backlog_window": "2026/06/01-2026/07/01 (empty) and 2026/07/01-2026/08/01 (4 threads, all live)",
+      "note": "Inbox 102 -> 63. Started at 102, not the 143 last recorded - ~41 threads left the inbox between runs without this task touching it; a second automation, [Inbox Cleaner], is sending dry-run previews from Miles's own address and one of its sender rules (always_archive on Ferryscanner) would have taken his live 5 Sep ferry ticket. Read the newest 67 (page one plus the 1 Mar - 15 May gap the old frontier note missed) plus both backlog windows. 3 people waiting, 6 dated actions, 7 money/open obligations left."
     }
   ]
 }
