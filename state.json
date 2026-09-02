@@ -1,7 +1,7 @@
 {
-  "frontier": "2026/06/01",
-  "frontier_note": "Backlog is drained older than this. Pre-March is 33 human conversations plus 2 self-sent notes - nothing archivable there. Frontier held on 2026-08-29: the June window (2026/06/01-2026/07/01) had 11 threads and all 11 were archivable, so it does not advance yet.",
-  "inbox_count": 143,
+  "frontier": "2026/07/01",
+  "frontier_note": "Backlog is drained older than this. Advanced on 2026-09-02: the June window (2026/06/01-2026/07/01) returned no threads at all, so nothing archivable. Note that on 2026-09-02 the whole inbox was 79 threads - under the 80-thread cap - so the newest-first read covered everything back to Oct 2025 and the frontier is not currently the binding constraint. The 2026-08-29 claim that pre-March held nothing archivable was an eyeball over search results, not a read; read properly, most of it was settled correspondence and was archived.",
+  "inbox_count": 24,
   "runs": [
     {
       "date": "2026-08-29",
@@ -9,6 +9,13 @@
       "inbox_count": 143,
       "backlog_window": "2026/06/01-2026/07/01",
       "note": "First recorded run. Inbox 245 -> 143. Newest-first through 23 Aug plus the June window. 11 threads left from the sweep: 2 people waiting, 4 open actions, 5 trips ahead."
+    },
+    {
+      "date": "2026-09-02",
+      "archived": 55,
+      "inbox_count": 24,
+      "backlog_window": "2026/06/01-2026/07/01 (empty)",
+      "note": "Inbox 79 -> 24. Whole inbox fitted under the 80 cap, so everything back to 15 Oct 2025 was read for the first time; the bulk of the 55 is settled pre-March correspondence. Inbox was 79 not 143 at the start - Miles cleared ~64 himself between runs, so inbox_count is not solely this task's doing. Frontier advanced to 2026/07/01. Left: 2 people waiting, 13 open actions, 9 trip legs ahead. Deadline surfaced: People First Bank credit card application lapses 2 Sep."
     }
   ]
 }
