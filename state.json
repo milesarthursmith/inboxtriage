@@ -1,7 +1,7 @@
 {
-  "frontier": "2026/06/01",
-  "frontier_note": "Backlog is drained older than this. Pre-March is 33 human conversations plus 2 self-sent notes - nothing archivable there. Frontier held on 2026-08-29: the June window (2026/06/01-2026/07/01) had 11 threads and all 11 were archivable, so it does not advance yet.",
-  "inbox_count": 143,
+  "frontier": "2026/07/01",
+  "frontier_note": "Backlog is drained older than this. Advanced on 2026-09-04: the June window (2026/06/01-2026/07/01) returned zero threads, so nothing archivable. In fact `in:inbox before:2026/07/17` returns nothing at all, so the next windows will also come back empty until the frontier reaches live mail around 2026/07/28 - keep advancing a window per run.",
+  "inbox_count": 22,
   "runs": [
     {
       "date": "2026-08-29",
@@ -9,6 +9,13 @@
       "inbox_count": 143,
       "backlog_window": "2026/06/01-2026/07/01",
       "note": "First recorded run. Inbox 245 -> 143. Newest-first through 23 Aug plus the June window. 11 threads left from the sweep: 2 people waiting, 4 open actions, 5 trips ahead."
+    },
+    {
+      "date": "2026-09-04",
+      "archived": 11,
+      "inbox_count": 22,
+      "backlog_window": "2026/06/01-2026/07/01",
+      "note": "Inbox was 33 at the start, not the 143 recorded on 29 Aug - Miles appears to have cleared ~110 himself in between; this run archived 11 of the 33. Whole inbox read (4 Sep back to 17 Jul), backlog window empty so frontier advanced. 22 left: 2 people waiting, 11 open actions, 9 trip legs ahead. Alarm-worthy: VicRoads $243.62 due 6 Sep."
     }
   ]
 }
