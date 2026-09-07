@@ -1,7 +1,7 @@
 {
-  "frontier": "2026/06/01",
-  "frontier_note": "Backlog is drained older than this. Pre-March is 33 human conversations plus 2 self-sent notes - nothing archivable there. Frontier held on 2026-08-29: the June window (2026/06/01-2026/07/01) had 11 threads and all 11 were archivable, so it does not advance yet.",
-  "inbox_count": 143,
+  "frontier": "2026/08/01",
+  "frontier_note": "Backlog is drained older than this, and there is no backlog left to sweep. Advanced on 2026-09-07: the June window (2026/06/01-2026/07/01) held zero inbox threads and the July window held three, all keepers (Allianz cheque, Gabriella's two forwarded flight bookings), so both came back with nothing archivable. The oldest thread in the inbox is now 17 Jul. Future runs read new mail only unless the inbox grows a tail again.",
+  "inbox_count": 22,
   "runs": [
     {
       "date": "2026-08-29",
@@ -9,6 +9,13 @@
       "inbox_count": 143,
       "backlog_window": "2026/06/01-2026/07/01",
       "note": "First recorded run. Inbox 245 -> 143. Newest-first through 23 Aug plus the June window. 11 threads left from the sweep: 2 people waiting, 4 open actions, 5 trips ahead."
+    },
+    {
+      "date": "2026-09-07",
+      "archived": 46,
+      "inbox_count": 22,
+      "backlog_window": "2026/06/01-2026/08/01",
+      "note": "Inbox 68 -> 22; whole inbox read, under the 80 cap. Note the inbox was 68 at the start, not the 143 recorded on 29 Aug - Miles cleared ~75 himself in between. Both backlog windows came back with nothing archivable, so frontier advances to 2026/08/01 and the backlog is finished. 22 left: 2 people waiting, 9 open actions, 11 live travel/collection threads. Closest calls: the Airbnb reminder-vs-confirmation split for today's stay, and the DAI Post missing parcel."
     }
   ]
 }
