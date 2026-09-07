@@ -20,6 +20,12 @@ this file needs updating with a reason. Never both silently.
 | 12 | Etihad booking 8SG35V, trip 24 Aug, read 23 Aug | **LEAVE** | Deadline ahead |
 | 13 | Same booking, read in October | ARCHIVE | Trip finished |
 | 14 | First email from a person with no reply history | **LEAVE** | Cannot be ruled out from the address. First contact is often the most valuable mail |
+| 16 | Gabriella "Evals" course-login thread, 5 Jun, 2 unread messages, never replied | ARCHIVE | Real person, but no question and no deadline — she never asked him anything. ~3 months stale, personal threads like this get handled offline per CORRECTIONS 2026-08-23. Settled 2026-08-29, checked against the inbox again on 2026-08-31 review: no pullback |
+| 17 | Gabriella-forwarded Flightnetwork booking CPH->LHR 13 Sep, "Sent from my iPhone" wrapper | ARCHIVE | Opened the HTML and checked the passenger list — it names only her, booking 1148-204-454. His own CPH->LHR is a separate ticket (SAS X8GTMV) that stays. Checked 2026-09-01, no pullback by 2026-09-07 |
+| 18 | Same sender, same day, forwarded Gotogate booking FCO->TIV, "Sent from my iPhone" wrapper | **LEAVE** | Same shape as #17, opposite verdict — the passenger list names MILES ARTHUR SMITH. This is the only copy of his own itinerary he holds. Pairs with #17 to show the sender/wrapper decides nothing; only opening the booking and reading the passenger names does |
+| 19 | Fairfield CMC referral to a psychologist, unread ~3 weeks | **LEAVE** | Live referral, still within a window where booking is plausible |
+| 20 | Fairfield CMC referral to pathology, same sender/shape, unread ~3 months | ARCHIVE | Sat unactioned long enough to read as abandoned rather than pending. Recency is the only thing distinguishing this from #19 — flagged as the weakest call in the run that made it, held through the following week with no pullback |
+| 21 | Dan Fleming, live job-process thread — he proposed holding a case study, Miles agreed and named a date, nothing outstanding on Miles's side | ARCHIVE | Mirror of #14: a real person and an open process, but the ball is in their court, not his. Their next message re-surfaces the thread; archiving it now costs nothing |
 
 ## One case where the rules disagree with themselves
 
