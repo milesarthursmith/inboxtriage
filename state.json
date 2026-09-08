@@ -1,7 +1,7 @@
 {
-  "frontier": "2026/06/01",
-  "frontier_note": "Backlog is drained older than this. Pre-March is 33 human conversations plus 2 self-sent notes - nothing archivable there. Frontier held on 2026-08-29: the June window (2026/06/01-2026/07/01) had 11 threads and all 11 were archivable, so it does not advance yet.",
-  "inbox_count": 143,
+  "frontier": "2026/07/01",
+  "frontier_note": "Backlog is drained older than this. Advanced on 2026-09-08: the June window (2026/06/01-2026/07/01) came back empty, as did everything before 2026/07/17. The backlog is now effectively moot - the whole inbox (18 threads) sits well under the 80-thread read cap, so a full newest-first read already covers what a backlog window would. Keep advancing on empty windows, or retire the frontier at the next review.",
+  "inbox_count": 18,
   "runs": [
     {
       "date": "2026-08-29",
@@ -9,6 +9,13 @@
       "inbox_count": 143,
       "backlog_window": "2026/06/01-2026/07/01",
       "note": "First recorded run. Inbox 245 -> 143. Newest-first through 23 Aug plus the June window. 11 threads left from the sweep: 2 people waiting, 4 open actions, 5 trips ahead."
+    },
+    {
+      "date": "2026-09-08",
+      "archived": 22,
+      "inbox_count": 18,
+      "backlog_window": "2026/06/01-2026/07/01 (empty)",
+      "note": "Ten-day gap since the last recorded run. Inbox was 40 at start, not the 143 recorded on 2026-08-29 - roughly 100 threads were cleared between runs by Miles or by something else, not by this task, so inbox_count is not a clean measure of this task's work right now. Read the whole inbox, all 40 threads. 18 left: 4 people waiting, 7 open actions, 4 trips ahead, plus VicRoads overdue and the pharmacy reorder. Frontier advanced. Note: a second automation, [Inbox Cleaner], is sending Miles dry-run previews and archives by sender rule - flagged in the brief and the run log for the review."
     }
   ]
 }
