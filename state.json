@@ -1,7 +1,7 @@
 {
-  "frontier": "2026/06/01",
-  "frontier_note": "Backlog is drained older than this. Pre-March is 33 human conversations plus 2 self-sent notes - nothing archivable there. Frontier held on 2026-08-29: the June window (2026/06/01-2026/07/01) had 11 threads and all 11 were archivable, so it does not advance yet.",
-  "inbox_count": 143,
+  "frontier": "2026/07/01",
+  "frontier_note": "Backlog is drained older than this. Pre-March is 33 human conversations plus 2 self-sent notes - nothing archivable there. Advanced on 2026-09-10: the June window (2026/06/01-2026/07/01) returned zero inbox threads, so it is done. Next window is 2026/07/01-2026/08/01.",
+  "inbox_count": 15,
   "runs": [
     {
       "date": "2026-08-29",
@@ -9,6 +9,13 @@
       "inbox_count": 143,
       "backlog_window": "2026/06/01-2026/07/01",
       "note": "First recorded run. Inbox 245 -> 143. Newest-first through 23 Aug plus the June window. 11 threads left from the sweep: 2 people waiting, 4 open actions, 5 trips ahead."
+    },
+    {
+      "date": "2026-09-10",
+      "archived": 18,
+      "inbox_count": 15,
+      "backlog_window": "2026/06/01-2026/07/01",
+      "note": "Inbox 33 -> 15. state.json had said 143, so ~110 threads were cleared between runs by Miles himself, not by this task - treat inbox_count as drifting between runs. 12-day gap since the last run covering 8 weekdays; worth checking whether the schedule fired. Whole inbox read (33, under the 80 cap); June window returned zero, so the frontier advances. 15 left: 2 people waiting, 7 open actions, 5 trips ahead, 1 standing pharmacy reminder. Overdue VicRoads rego payment surfaced and notified."
     }
   ]
 }
