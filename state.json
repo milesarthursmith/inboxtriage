@@ -1,7 +1,7 @@
 {
-  "frontier": "2026/06/01",
-  "frontier_note": "Backlog is drained older than this. Pre-March is 33 human conversations plus 2 self-sent notes - nothing archivable there. Frontier held on 2026-08-29: the June window (2026/06/01-2026/07/01) had 11 threads and all 11 were archivable, so it does not advance yet.",
-  "inbox_count": 143,
+  "frontier": "2026/08/01",
+  "frontier_note": "Backlog is drained older than this. Advanced on 2026-09-17: the June window (2026/06/01-2026/07/01) returned zero threads, and so did `in:inbox before:2026/08/17` - nothing at all remains behind the daily sweep. Pre-March was 33 human conversations plus 2 self-sent notes; those are gone from the inbox too. The frontier has caught up with the newest-first read, so backlog windows have nothing left to do unless old mail is un-archived.",
+  "inbox_count": 14,
   "runs": [
     {
       "date": "2026-08-29",
@@ -9,6 +9,13 @@
       "inbox_count": 143,
       "backlog_window": "2026/06/01-2026/07/01",
       "note": "First recorded run. Inbox 245 -> 143. Newest-first through 23 Aug plus the June window. 11 threads left from the sweep: 2 people waiting, 4 open actions, 5 trips ahead."
+    },
+    {
+      "date": "2026-09-17",
+      "archived": 13,
+      "inbox_count": 14,
+      "backlog_window": "2026/06/01-2026/07/01 (empty)",
+      "note": "Inbox 27 -> 14. Whole inbox read, no backlog left. 19 days since the last logged run and the inbox had fallen 143 -> 27 in between, so ~116 threads were cleared manually, not by this task - the 5-run trend still has only 2 points. 14 left: 5 people waiting, 9 open actions. VicRoads rego payment $243.62 overdue since 6 Sep; notification sent."
     }
   ]
 }
