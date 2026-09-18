@@ -1,7 +1,7 @@
 {
-  "frontier": "2026/06/01",
-  "frontier_note": "Backlog is drained older than this. Pre-March is 33 human conversations plus 2 self-sent notes - nothing archivable there. Frontier held on 2026-08-29: the June window (2026/06/01-2026/07/01) had 11 threads and all 11 were archivable, so it does not advance yet.",
-  "inbox_count": 143,
+  "frontier": "2026/08/17",
+  "frontier_note": "Backlog is drained older than this. Advanced on 2026-09-18: an `in:inbox before:2026/08/17` query returned zero threads, so the June window (2026/06/01-2026/07/01) and every window between it and 17 Aug are empty. Advanced straight to the evidence rather than stepping one window per run.",
+  "inbox_count": 13,
   "runs": [
     {
       "date": "2026-08-29",
@@ -9,6 +9,13 @@
       "inbox_count": 143,
       "backlog_window": "2026/06/01-2026/07/01",
       "note": "First recorded run. Inbox 245 -> 143. Newest-first through 23 Aug plus the June window. 11 threads left from the sweep: 2 people waiting, 4 open actions, 5 trips ahead."
+    },
+    {
+      "date": "2026-09-18",
+      "archived": 10,
+      "inbox_count": 13,
+      "backlog_window": "none - nothing in the inbox older than 2026/08/17",
+      "note": "Inbox held 23 threads at start, not the 143 recorded on 29 Aug: ~120 cleared outside this task with no run log, and a self-sent '[Inbox Cleaner] Preview - 2026-09-07' thread suggests a second automated cleaner is running. Read all 23, archived 10, 13 left: 6 people waiting, 7 open actions. VicRoads rego $243.62 is 12 days overdue - left in the inbox on 29 Aug with its deadline ahead, went past due on 6 Sep while nothing ran. inbox_count has fallen, so no flat-count alarm, but the fall is mostly not this task's work."
     }
   ]
 }
