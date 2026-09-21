@@ -1,7 +1,7 @@
 {
-  "frontier": "2026/06/01",
-  "frontier_note": "Backlog is drained older than this. Pre-March is 33 human conversations plus 2 self-sent notes - nothing archivable there. Frontier held on 2026-08-29: the June window (2026/06/01-2026/07/01) had 11 threads and all 11 were archivable, so it does not advance yet.",
-  "inbox_count": 143,
+  "frontier": "2026/08/01",
+  "frontier_note": "Backlog is drained older than this. Advanced on 2026-09-21: the June window (2026/06/01-2026/07/01) came back empty - the 2026-08-29 run archived all 11 of its threads - and a check for in:inbox before:2026/08/17 also returned zero, so July and early August hold nothing either. 2026/08/01 is where the live inbox now begins. Pre-March is 33 human conversations plus 2 self-sent notes - nothing archivable there.",
+  "inbox_count": 14,
   "runs": [
     {
       "date": "2026-08-29",
@@ -9,6 +9,13 @@
       "inbox_count": 143,
       "backlog_window": "2026/06/01-2026/07/01",
       "note": "First recorded run. Inbox 245 -> 143. Newest-first through 23 Aug plus the June window. 11 threads left from the sweep: 2 people waiting, 4 open actions, 5 trips ahead."
+    },
+    {
+      "date": "2026-09-21",
+      "archived": 29,
+      "inbox_count": 14,
+      "backlog_window": "2026/06/01-2026/07/01",
+      "note": "Inbox 43 -> 14. state.json said 143 but the real inbox held 43, so ~100 threads cleared between runs without a log; counted the real inbox. Whole inbox read, 21 Sep back to 17 Aug, under the 80 cap. Backlog window empty and nothing in the inbox older than 17 Aug, so frontier advanced 2026/06/01 -> 2026/08/01. 14 left: 6 people waiting, 8 open actions. Miles landed back in Melbourne 21 Sep, which brings several August promises due."
     }
   ]
 }
