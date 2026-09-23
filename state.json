@@ -1,7 +1,7 @@
 {
-  "frontier": "2026/06/01",
-  "frontier_note": "Backlog is drained older than this. Pre-March is 33 human conversations plus 2 self-sent notes - nothing archivable there. Frontier held on 2026-08-29: the June window (2026/06/01-2026/07/01) had 11 threads and all 11 were archivable, so it does not advance yet.",
-  "inbox_count": 143,
+  "frontier": "2026/08/17",
+  "frontier_note": "Backlog is fully drained. On 2026-09-23 the June window (2026/06/01-2026/07/01) returned zero inbox threads, and `in:inbox before:2026/08/17` also returned zero - nothing is left in the inbox older than 17 Aug 2026. Frontier jumped past July rather than walking empty windows. There is no backlog to work until one accumulates again; if a run finds threads older than the frontier, drop the frontier to cover them.",
+  "inbox_count": 18,
   "runs": [
     {
       "date": "2026-08-29",
@@ -9,6 +9,13 @@
       "inbox_count": 143,
       "backlog_window": "2026/06/01-2026/07/01",
       "note": "First recorded run. Inbox 245 -> 143. Newest-first through 23 Aug plus the June window. 11 threads left from the sweep: 2 people waiting, 4 open actions, 5 trips ahead."
+    },
+    {
+      "date": "2026-09-23",
+      "archived": 11,
+      "inbox_count": 18,
+      "backlog_window": "2026/06/01-2026/07/01",
+      "note": "First run since 29 Aug - the schedule did not fire for 3.5 weeks. Inbox was already 29, not 143: Miles cleared ~115 himself, including all five travel threads the last run left. Archived 11 of 29. Backlog window empty, frontier advanced to 2026/08/17. Notified on VicRoads rego $243.62, 17 days overdue."
     }
   ]
 }
