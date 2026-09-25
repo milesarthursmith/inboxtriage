@@ -1,7 +1,7 @@
 {
-  "frontier": "2026/06/01",
-  "frontier_note": "Backlog is drained older than this. Pre-March is 33 human conversations plus 2 self-sent notes - nothing archivable there. Frontier held on 2026-08-29: the June window (2026/06/01-2026/07/01) had 11 threads and all 11 were archivable, so it does not advance yet.",
-  "inbox_count": 143,
+  "frontier": "2026/08/17",
+  "frontier_note": "Backlog is fully drained. The window this run was due to sweep (2026/06/01-2026/07/01) returned zero inbox threads, and so did `in:inbox before:2026/08/17`, so the frontier advances to the oldest thread still in the inbox. Miles cleared roughly 106 threads himself between 29 Aug and 25 Sep, including the 45 pre-March human conversations the old note described. There is no backlog window left to sweep: the whole inbox now fits inside the 80-thread newest-first pass. If a future run finds the inbox back over 80, set the frontier again from the oldest thread it could not reach.",
+  "inbox_count": 18,
   "runs": [
     {
       "date": "2026-08-29",
@@ -9,6 +9,13 @@
       "inbox_count": 143,
       "backlog_window": "2026/06/01-2026/07/01",
       "note": "First recorded run. Inbox 245 -> 143. Newest-first through 23 Aug plus the June window. 11 threads left from the sweep: 2 people waiting, 4 open actions, 5 trips ahead."
+    },
+    {
+      "date": "2026-09-25",
+      "archived": 19,
+      "inbox_count": 18,
+      "backlog_window": "2026/06/01-2026/07/01 (empty)",
+      "note": "Inbox was already 37 at the start, not the 143 recorded on 29 Aug - Miles cleared the old backlog himself. Read all 37 in full, archived 19, left 18: 4 people waiting (3 Anita Gibbs threads, 1 flagged recruiter approach from a lookalike domain) and 14 open actions. Backlog window empty, frontier advanced. Four failed payments in three weeks (VicRoads, More, Linkt, Hostinger) point at one dead card - notified. Trend 245 -> 143 -> 18, so no flat-count alarm, but most of the fall was Miles, not this task."
     }
   ]
 }
