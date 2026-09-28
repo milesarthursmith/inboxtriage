@@ -1,14 +1,42 @@
 {
-  "frontier": "2026/06/01",
-  "frontier_note": "Backlog is drained older than this. Pre-March is 33 human conversations plus 2 self-sent notes - nothing archivable there. Frontier held on 2026-08-29: the June window (2026/06/01-2026/07/01) had 11 threads and all 11 were archivable, so it does not advance yet.",
-  "inbox_count": 143,
+  "frontier": "2026/08/17",
+  "frontier_note": "Backlog is drained. The 2026/06/01-2026/07/01 window came back with zero threads on 2026-09-28, as did `in:inbox before:2026/08/17`, so the frontier advances from 2026/06/01 to 2026/08/17 - the date of the oldest thread still in the inbox. Miles cleared the 143-thread backlog himself between 2026-08-29 and 2026-09-28. Until a backlog reappears, the whole inbox sits inside the newest-first sweep and backlog windows are moot.",
+  "inbox_count": 19,
   "runs": [
     {
-      "date": "2026-08-29",
-      "archived": 102,
-      "inbox_count": 143,
+      "date": "2026-09-22",
+      "archived": 13,
+      "inbox_count": 17,
+      "backlog_window": "2026/06/01-2026/07/01 (empty)",
+      "note": "First run in 24 days. Inbox was already down to 30 when this run started - Miles cleared it himself between runs, nothing in this repo accounts for the drop from 143. Read all 30, archived 13, 17 left: 6 people waiting, 11 open actions. Backlog window empty and nothing in the inbox predates 2026/08/17, so the frontier advanced from 2026/06/01. Notified on VicRoads rego $243.62, 16 days overdue."
+    },
+    {
+      "date": "2026-09-23",
+      "archived": 11,
+      "inbox_count": 18,
       "backlog_window": "2026/06/01-2026/07/01",
-      "note": "First recorded run. Inbox 245 -> 143. Newest-first through 23 Aug plus the June window. 11 threads left from the sweep: 2 people waiting, 4 open actions, 5 trips ahead."
+      "note": "First run since 29 Aug - the schedule did not fire for 3.5 weeks. Inbox was already 29, not 143: Miles cleared ~115 himself, including all five travel threads the last run left. Archived 11 of 29. Backlog window empty, frontier advanced to 2026/08/17. Notified on VicRoads rego $243.62, 17 days overdue."
+    },
+    {
+      "date": "2026-09-24",
+      "archived": 21,
+      "inbox_count": 16,
+      "backlog_window": "2026/06/01-2026/07/01 (empty)",
+      "note": "Inbox 37 -> 16. 26-day gap since the last run and nothing ran in between: state said 143, the inbox held 36, so Miles cleared ~127 himself. Read the whole inbox (17 Aug - 24 Sep) plus one thread that arrived mid-run. 16 left: 6 people waiting (3 of them Anita Gibbs), 10 open actions. VicRoads rego $243.62 is 18 days past due and the car may be unregistered - notified. Frontier advanced; backlog window was empty."
+    },
+    {
+      "date": "2026-09-25",
+      "archived": 19,
+      "inbox_count": 18,
+      "backlog_window": "2026/06/01-2026/07/01 (empty)",
+      "note": "Inbox was already 37 at the start, not the 143 recorded on 29 Aug - Miles cleared the old backlog himself. Read all 37 in full, archived 19, left 18: 4 people waiting (3 Anita Gibbs threads, 1 flagged recruiter approach from a lookalike domain) and 14 open actions. Backlog window empty, frontier advanced. Four failed payments in three weeks (VicRoads, More, Linkt, Hostinger) point at one dead card - notified. Trend 245 -> 143 -> 18, so no flat-count alarm, but most of the fall was Miles, not this task."
+    },
+    {
+      "date": "2026-09-28",
+      "archived": 34,
+      "inbox_count": 19,
+      "backlog_window": "2026/06/01-2026/07/01 (empty)",
+      "note": "Inbox 53 -> 19. Whole inbox read (53 < 80 cap), oldest thread 17 Aug. Backlog window empty so frontier advanced to 2026/08/17. 19 left: 8 people waiting, 11 open actions. Nothing archived on 2026-08-29 had been pulled back."
     }
   ]
 }
