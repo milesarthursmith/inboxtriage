@@ -1,7 +1,7 @@
 {
-  "frontier": "2026/06/01",
-  "frontier_note": "Backlog is drained older than this. Pre-March is 33 human conversations plus 2 self-sent notes - nothing archivable there. Frontier held on 2026-08-29: the June window (2026/06/01-2026/07/01) had 11 threads and all 11 were archivable, so it does not advance yet.",
-  "inbox_count": 143,
+  "frontier": "2026/08/17",
+  "frontier_note": "Backlog is drained. The 2026/06/01-2026/07/01 window came back with zero threads on 2026-09-28, as did `in:inbox before:2026/08/17`, so the frontier advances from 2026/06/01 to 2026/08/17 - the date of the oldest thread still in the inbox. Miles cleared the 143-thread backlog himself between 2026-08-29 and 2026-09-28. Until a backlog reappears, the whole inbox sits inside the newest-first sweep and backlog windows are moot.",
+  "inbox_count": 19,
   "runs": [
     {
       "date": "2026-08-29",
@@ -9,6 +9,13 @@
       "inbox_count": 143,
       "backlog_window": "2026/06/01-2026/07/01",
       "note": "First recorded run. Inbox 245 -> 143. Newest-first through 23 Aug plus the June window. 11 threads left from the sweep: 2 people waiting, 4 open actions, 5 trips ahead."
+    },
+    {
+      "date": "2026-09-28",
+      "archived": 34,
+      "inbox_count": 19,
+      "backlog_window": "2026/06/01-2026/07/01 (empty)",
+      "note": "Inbox 53 -> 19. Whole inbox read (53 < 80 cap), oldest thread 17 Aug. Backlog window empty so frontier advanced to 2026/08/17. 19 left: 8 people waiting, 11 open actions. Nothing archived on 2026-08-29 had been pulled back."
     }
   ]
 }
