@@ -1,7 +1,7 @@
 {
-  "frontier": "2026/06/01",
-  "frontier_note": "Backlog is drained older than this. Pre-March is 33 human conversations plus 2 self-sent notes - nothing archivable there. Frontier held on 2026-08-29: the June window (2026/06/01-2026/07/01) had 11 threads and all 11 were archivable, so it does not advance yet.",
-  "inbox_count": 143,
+  "frontier": "2026/08/17",
+  "frontier_note": "Backlog is drained older than this. Advanced on 2026-09-29: the June window (2026/06/01-2026/07/01) returned zero inbox threads, and the full inbox enumeration that run showed nothing older than 2026-08-17 (Budget Direct, 17 Aug) still in the inbox. The 200-thread backlog this task was built to drain no longer exists, so the frontier has nothing left to walk through.",
+  "inbox_count": 18,
   "runs": [
     {
       "date": "2026-08-29",
@@ -9,6 +9,13 @@
       "inbox_count": 143,
       "backlog_window": "2026/06/01-2026/07/01",
       "note": "First recorded run. Inbox 245 -> 143. Newest-first through 23 Aug plus the June window. 11 threads left from the sweep: 2 people waiting, 4 open actions, 5 trips ahead."
+    },
+    {
+      "date": "2026-09-29",
+      "archived": 27,
+      "inbox_count": 18,
+      "backlog_window": "2026/06/01-2026/07/01 (empty, frontier advanced to 2026/08/17)",
+      "note": "Task had not fired for a month. Inbox 45 -> 18. Whole inbox read in one page. Most of the 143 -> 45 fall was Miles clearing mail himself, not this task - 7 of the 11 threads the last run left are gone. Left in: 3 genuinely unpaid bills (VicRoads $243.62 overdue since 6 Sept, Linkt $83.14 suspended, More $100), 4 deadlines ahead, 4 people waiting, 7 open actions. No thread archived by the 2026-08-29 run has been pulled back."
     }
   ]
 }
