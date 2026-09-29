@@ -1,0 +1,4 @@
+# The daily brief is delivered to Miles and then gone - see RULES.md.
+# runs/YYYY-MM-DD.md is the durable record, and the weekly review reads that.
+# Ignored so the briefs don't accumulate here, one per weekday, forever.
+brief-*.html
