@@ -1,7 +1,7 @@
 {
-  "frontier": "2026/06/01",
-  "frontier_note": "Backlog is drained older than this. Pre-March is 33 human conversations plus 2 self-sent notes - nothing archivable there. Frontier held on 2026-08-29: the June window (2026/06/01-2026/07/01) had 11 threads and all 11 were archivable, so it does not advance yet.",
-  "inbox_count": 143,
+  "frontier": "2026/08/17",
+  "frontier_note": "Backlog is drained older than this. Advanced from 2026/06/01 on 2026-09-30: the June window (2026/06/01-2026/07/01) returned zero threads, and so did `in:inbox before:2026/08/17` - there is no inbox mail older than 17 Aug at all, so the backlog the frontier walks is finished. 2026/08/17 is the oldest thread now in the inbox. The next notional window (2026/08/17-2026/09/17) is already covered in full by the newest-first sweep, so backlog windows are moot until the inbox accumulates age again.",
+  "inbox_count": 19,
   "runs": [
     {
       "date": "2026-08-29",
@@ -9,6 +9,13 @@
       "inbox_count": 143,
       "backlog_window": "2026/06/01-2026/07/01",
       "note": "First recorded run. Inbox 245 -> 143. Newest-first through 23 Aug plus the June window. 11 threads left from the sweep: 2 people waiting, 4 open actions, 5 trips ahead."
+    },
+    {
+      "date": "2026-09-30",
+      "archived": 33,
+      "inbox_count": 19,
+      "backlog_window": "2026/06/01-2026/07/01 (empty)",
+      "note": "First run since 29 Aug - the schedule did not fire for a month. Inbox was already 51 on arrival; Miles cleared ~90 himself in the gap. Read the whole inbox (51, under the 80 cap), archived 33, 19 left: 3 people waiting, 16 open actions. Frontier advanced - backlog fully drained. Finding: four direct debits have all failed (More, VicRoads, Linkt, Latitude), one probable expired card behind $426.76 of the $498.01 outstanding."
     }
   ]
 }
