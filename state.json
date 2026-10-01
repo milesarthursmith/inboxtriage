@@ -1,7 +1,7 @@
 {
-  "frontier": "2026/06/01",
-  "frontier_note": "Backlog is drained older than this. Pre-March is 33 human conversations plus 2 self-sent notes - nothing archivable there. Frontier held on 2026-08-29: the June window (2026/06/01-2026/07/01) had 11 threads and all 11 were archivable, so it does not advance yet.",
-  "inbox_count": 143,
+  "frontier": "2026/08/17",
+  "frontier_note": "Backlog is drained older than this. Advanced from 2026/06/01 on 2026-10-01: the June window (2026/06/01-2026/07/01) came back empty, and so did `in:inbox before:2026/08/17` - the whole pre-17-Aug backlog is gone. This task did not archive it (it archived 102 threads on 2026-08-29 and 22 today), so Miles cleared ~120 threads himself between 29 Aug and 1 Oct. Consequence: the backlog window is currently empty and the newest-first sweep (cap 80) covers the entire inbox. Do not read the 143 -> 40 drop as evidence about the rules.",
+  "inbox_count": 19,
   "runs": [
     {
       "date": "2026-08-29",
@@ -9,6 +9,13 @@
       "inbox_count": 143,
       "backlog_window": "2026/06/01-2026/07/01",
       "note": "First recorded run. Inbox 245 -> 143. Newest-first through 23 Aug plus the June window. 11 threads left from the sweep: 2 people waiting, 4 open actions, 5 trips ahead."
+    },
+    {
+      "date": "2026-10-01",
+      "archived": 22,
+      "inbox_count": 19,
+      "backlog_window": "empty - nothing in the inbox older than 2026/08/17",
+      "note": "First run since 29 Aug; the weekday schedule did not fire for a month. Inbox was 40, not the 143 recorded - the pre-17-Aug backlog was cleared by someone other than this task. Measurable run is 40 -> 19. Frontier advanced 2026/06/01 -> 2026/08/17. 19 left: 6 people waiting, 13 open actions, of which 3 are overdue bills totalling $426.76 (VicRoads $243.62 25 days overdue, Linkt $83.14 suspended, More $100) and 3 fall due 1-2 Oct."
     }
   ]
 }
