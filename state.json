@@ -1,7 +1,7 @@
 {
-  "frontier": "2026/06/01",
-  "frontier_note": "Backlog is drained older than this. Pre-March is 33 human conversations plus 2 self-sent notes - nothing archivable there. Frontier held on 2026-08-29: the June window (2026/06/01-2026/07/01) had 11 threads and all 11 were archivable, so it does not advance yet.",
-  "inbox_count": 143,
+  "frontier": "2026/08/17",
+  "frontier_note": "Backlog is drained older than this. Advanced on 2026-10-02: the June window (2026/06/01-2026/07/01) came back empty, and so did `in:inbox before:2026/08/17` - nothing in the inbox is older than the Budget Direct thread of 17 Aug. Miles cleared the 29 Aug remainder himself between runs. There is no backlog left to window; until one builds up again, each run just reads the inbox newest-first.",
+  "inbox_count": 19,
   "runs": [
     {
       "date": "2026-08-29",
@@ -9,6 +9,13 @@
       "inbox_count": 143,
       "backlog_window": "2026/06/01-2026/07/01",
       "note": "First recorded run. Inbox 245 -> 143. Newest-first through 23 Aug plus the June window. 11 threads left from the sweep: 2 people waiting, 4 open actions, 5 trips ahead."
+    },
+    {
+      "date": "2026-10-02",
+      "archived": 40,
+      "inbox_count": 19,
+      "backlog_window": "none - backlog drained",
+      "note": "Five-week gap since the last run. Inbox 59 -> 19; Miles had cleared most of the 143 himself. Whole inbox read in one pass, no window needed. 19 left: 4 people waiting, 13 open actions, 1 unverified first contact, 1 thread sitting with his accountant. Headline: four declined direct debits plus a Linkt suspension, all consistent with one dead card."
     }
   ]
 }
