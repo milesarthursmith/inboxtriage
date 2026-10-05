@@ -1,7 +1,7 @@
 {
-  "frontier": "2026/06/01",
-  "frontier_note": "Backlog is drained older than this. Pre-March is 33 human conversations plus 2 self-sent notes - nothing archivable there. Frontier held on 2026-08-29: the June window (2026/06/01-2026/07/01) had 11 threads and all 11 were archivable, so it does not advance yet.",
-  "inbox_count": 143,
+  "frontier": "2026/08/17",
+  "frontier_note": "Backlog is drained older than this. Advanced from 2026/06/01 on 2026-10-05: the June window (2026/06/01-2026/07/01) came back empty, and so did `in:inbox before:2026/08/17`, so the oldest thread still in the inbox is the Budget Direct car inspection of 17 Aug. Pre-March is 33 human conversations plus 2 self-sent notes - nothing archivable there.",
+  "inbox_count": 18,
   "runs": [
     {
       "date": "2026-08-29",
@@ -9,6 +9,13 @@
       "inbox_count": 143,
       "backlog_window": "2026/06/01-2026/07/01",
       "note": "First recorded run. Inbox 245 -> 143. Newest-first through 23 Aug plus the June window. 11 threads left from the sweep: 2 people waiting, 4 open actions, 5 trips ahead."
+    },
+    {
+      "date": "2026-10-05",
+      "archived": 40,
+      "inbox_count": 18,
+      "backlog_window": "2026/06/01-2026/07/01 (empty)",
+      "note": "First run in five weeks - the task did not fire between 30 Aug and 3 Oct. Inbox was already down to 58; Miles cleared most of the August residue himself. Whole inbox read (58 < 80 cap). 18 left: 4 people waiting, 14 open actions. Frontier advanced to 2026/08/17 - both the June window and everything before 17 Aug are empty. Headline: four declined payments in a fortnight (VicRoads $243.62 rego a month overdue, Linkt $83.14 suspended, More $100, GitHub card), likely one dead card."
     }
   ]
 }
