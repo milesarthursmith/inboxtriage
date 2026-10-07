@@ -1,7 +1,7 @@
 {
-  "frontier": "2026/06/01",
-  "frontier_note": "Backlog is drained older than this. Pre-March is 33 human conversations plus 2 self-sent notes - nothing archivable there. Frontier held on 2026-08-29: the June window (2026/06/01-2026/07/01) had 11 threads and all 11 were archivable, so it does not advance yet.",
-  "inbox_count": 143,
+  "frontier": "2026/08/17",
+  "frontier_note": "Backlog fully drained. Evidence 2026-10-07: the June window (2026/06/01-2026/07/01) returned nothing, and `in:inbox before:2026/08/18` returned exactly one thread - the Budget Direct car inspection of 17 Aug, a live open action deliberately kept. The whole inbox (17 threads) now fits inside the newest-first 80-thread sweep, so there is no separate backlog window left to read. Frontier is a historical marker from here; leave it alone unless the inbox grows past the cap again.",
+  "inbox_count": 17,
   "runs": [
     {
       "date": "2026-08-29",
@@ -9,6 +9,13 @@
       "inbox_count": 143,
       "backlog_window": "2026/06/01-2026/07/01",
       "note": "First recorded run. Inbox 245 -> 143. Newest-first through 23 Aug plus the June window. 11 threads left from the sweep: 2 people waiting, 4 open actions, 5 trips ahead."
+    },
+    {
+      "date": "2026-10-07",
+      "archived": 12,
+      "inbox_count": 17,
+      "backlog_window": "none - backlog drained, whole inbox read",
+      "note": "Six-week gap since the previous run, so the 143 -> 17 fall is mostly Miles clearing his own inbox, not this task; check the schedule is firing. Whole inbox read (29 threads). 17 left: 4 people waiting, 11 open actions, 2 registered events ahead. One card decline sits behind five of the open actions (VicRoads, More, Linkt, GitHub, CBA alert); VicRoads rego $243.62 has been overdue since 6 Sep. Also found a second automation, `[Inbox Cleaner]`, posting weekly sender/category-based dry runs since at least 6 Jul - harmless while dry, recommended off in the brief."
     }
   ]
 }
