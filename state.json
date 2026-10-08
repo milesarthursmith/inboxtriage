@@ -1,7 +1,7 @@
 {
   "frontier": "2026/08/17",
   "frontier_note": "Backlog fully drained. Evidence 2026-10-07: the June window (2026/06/01-2026/07/01) returned nothing, and `in:inbox before:2026/08/18` returned exactly one thread - the Budget Direct car inspection of 17 Aug, a live open action deliberately kept. The whole inbox (17 threads) now fits inside the newest-first 80-thread sweep, so there is no separate backlog window left to read. Frontier is a historical marker from here; leave it alone unless the inbox grows past the cap again.",
-  "inbox_count": 17,
+  "inbox_count": 16,
   "runs": [
     {
       "date": "2026-08-29",
@@ -12,10 +12,10 @@
     },
     {
       "date": "2026-10-07",
-      "archived": 12,
-      "inbox_count": 17,
+      "archived": 13,
+      "inbox_count": 16,
       "backlog_window": "none - backlog drained, whole inbox read",
-      "note": "Six-week gap since the previous run, so the 143 -> 17 fall is mostly Miles clearing his own inbox, not this task; check the schedule is firing. Whole inbox read (29 threads). 17 left: 4 people waiting, 11 open actions, 2 registered events ahead. One card decline sits behind five of the open actions (VicRoads, More, Linkt, GitHub, CBA alert); VicRoads rego $243.62 has been overdue since 6 Sep. Also found a second automation, `[Inbox Cleaner]`, posting weekly sender/category-based dry runs since at least 6 Jul - harmless while dry, recommended off in the brief."
+      "note": "Six-week gap since the previous run, so the 143 -> 17 fall is mostly Miles clearing his own inbox, not this task; check the schedule is firing. Whole inbox read (29 threads). 17 left: 4 people waiting, 11 open actions, 2 registered events ahead. One card decline sits behind five of the open actions (VicRoads, More, Linkt, GitHub, CBA alert); VicRoads rego $243.62 has been overdue since 6 Sep. Also found a second automation, `[Inbox Cleaner]`, posting weekly sender/category-based dry runs since at least 6 Jul - harmless while dry, recommended off in the brief. CORRECTION 2026-10-08: the VicRoads rego was already paid - Miles said so - so keeping it was a wrong call and it is now archived (13 archived, 16 left). The failure was reading 'no later message from the sender' as 'unpaid'; VicRoads emails no receipt for a myVicRoads/BPAY payment, so that test can never clear. The one-card pattern now covers More, Linkt and GitHub only, and is unconfirmed."
     }
   ]
 }
