@@ -1,7 +1,7 @@
 {
-  "frontier": "2026/06/01",
-  "frontier_note": "Backlog is drained older than this. Pre-March is 33 human conversations plus 2 self-sent notes - nothing archivable there. Frontier held on 2026-08-29: the June window (2026/06/01-2026/07/01) had 11 threads and all 11 were archivable, so it does not advance yet.",
-  "inbox_count": 143,
+  "frontier": "2026/08/01",
+  "frontier_note": "Advanced on 2026-10-08. The June window (2026/06/01-2026/07/01) returned zero threads, and `in:inbox before:2026/08/17` also returned zero, so the whole pre-August backlog is verifiably drained - not just the window. Frontier set to 2026/08/01 as the conservative month-aligned point the evidence supports. There is no backlog left to window through; future runs are a newest-first read only.",
+  "inbox_count": 18,
   "runs": [
     {
       "date": "2026-08-29",
@@ -9,6 +9,13 @@
       "inbox_count": 143,
       "backlog_window": "2026/06/01-2026/07/01",
       "note": "First recorded run. Inbox 245 -> 143. Newest-first through 23 Aug plus the June window. 11 threads left from the sweep: 2 people waiting, 4 open actions, 5 trips ahead."
+    },
+    {
+      "date": "2026-10-08",
+      "archived": 38,
+      "inbox_count": 18,
+      "backlog_window": "2026/06/01-2026/07/01",
+      "note": "Six-week gap since the last run; inbox had already fallen 143 -> 56 without this task, so Miles cleared most of the 29 Aug remainder himself. Read the whole inbox (56, under the 80 cap). June window returned zero and nothing in the inbox predates 17 Aug, so the frontier advanced. 18 left: 4 people waiting, 14 open actions. Headline finding was a cross-thread one - four direct debits failed since early Sep (VicRoads, More, Linkt, GitHub) with no payment behind any of them, pointing at one dead card."
     }
   ]
 }
