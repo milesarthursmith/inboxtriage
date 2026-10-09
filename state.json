@@ -1,7 +1,7 @@
 {
-  "frontier": "2026/06/01",
-  "frontier_note": "Backlog is drained older than this. Pre-March is 33 human conversations plus 2 self-sent notes - nothing archivable there. Frontier held on 2026-08-29: the June window (2026/06/01-2026/07/01) had 11 threads and all 11 were archivable, so it does not advance yet.",
-  "inbox_count": 143,
+  "frontier": "2026/08/17",
+  "frontier_note": "Backlog is drained older than this. Advanced on 2026-10-09: the June window (2026/06/01-2026/07/01) returned zero threads, and `in:inbox before:2026/08/18` returned exactly one (Budget Direct, 17 Aug, still open). Frontier set to that thread's date rather than 2026/07/01 because everything between is gone - Miles cleared the Apr-Aug and pre-March blocks himself between runs. At 14 threads the whole inbox now fits inside the 80-thread newest-first sweep, so the backlog window is a no-op until the inbox grows again.",
+  "inbox_count": 14,
   "runs": [
     {
       "date": "2026-08-29",
@@ -9,6 +9,13 @@
       "inbox_count": 143,
       "backlog_window": "2026/06/01-2026/07/01",
       "note": "First recorded run. Inbox 245 -> 143. Newest-first through 23 Aug plus the June window. 11 threads left from the sweep: 2 people waiting, 4 open actions, 5 trips ahead."
+    },
+    {
+      "date": "2026-10-09",
+      "archived": 37,
+      "inbox_count": 14,
+      "backlog_window": "2026/06/01-2026/07/01",
+      "note": "Six-week gap since the last run. Inbox was already 51 at start - Miles cleared the Aug/Apr-Aug/pre-March blocks himself. Read all 51 (under the 80 cap), archived 37. Backlog window returned zero threads so the frontier advanced to 2026/08/17. Left 14: 4 people waiting (Spencer invoice ~$2k, Pan After $32, Anita x2), 5 unpaid or open money items (Linkt $83.14, More $100, GitHub card, ENGIE $71.25, Budget Direct inspection), 5 dated or open actions. Reversed last run's keep on the Roofrite invoice - reason in the run log."
     }
   ]
 }
