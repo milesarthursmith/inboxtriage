@@ -1,0 +1,3 @@
+# Briefs are delivered via SendUserFile and are deliberately not durable.
+# The durable record of each run is runs/YYYY-MM-DD.md - see RULES.md.
+brief-*.html
