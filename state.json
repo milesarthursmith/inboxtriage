@@ -1,7 +1,7 @@
 {
-  "frontier": "2026/06/01",
-  "frontier_note": "Backlog is drained older than this. Pre-March is 33 human conversations plus 2 self-sent notes - nothing archivable there. Frontier held on 2026-08-29: the June window (2026/06/01-2026/07/01) had 11 threads and all 11 were archivable, so it does not advance yet.",
-  "inbox_count": 143,
+  "frontier": "2026/07/01",
+  "frontier_note": "Advanced on 2026-10-12: the June window (2026/06/01-2026/07/01) returned zero inbox threads, so nothing archivable. The backlog is effectively drained - nothing in the inbox predates 2026-08-17, and the 143 threads the 2026-08-29 run left behind (including the pre-March human conversations and the ~45 older than 30 Apr) were cleared outside this task between 29 Aug and 12 Oct. Next window is 2026/07/01-2026/08/01, but expect it empty too.",
+  "inbox_count": 13,
   "runs": [
     {
       "date": "2026-08-29",
@@ -9,6 +9,13 @@
       "inbox_count": 143,
       "backlog_window": "2026/06/01-2026/07/01",
       "note": "First recorded run. Inbox 245 -> 143. Newest-first through 23 Aug plus the June window. 11 threads left from the sweep: 2 people waiting, 4 open actions, 5 trips ahead."
+    },
+    {
+      "date": "2026-10-12",
+      "archived": 99,
+      "inbox_count": 13,
+      "backlog_window": "2026/06/01-2026/07/01",
+      "note": "Six weeks since the last run. Inbox 112 -> 13; read the whole inbox since it was under the 80-thread cap plus window. June window empty, so frontier advanced to 2026/07/01. 49 of 99 archived were GitHub Actions failure notices. Left: 4 people waiting (Freshworks invoice ~$2,000 USD, Pan After payment, Anita x2), Linkt suspended $83.14, and 8 other open actions."
     }
   ]
 }
