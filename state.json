@@ -1,7 +1,7 @@
 {
-  "frontier": "2026/06/01",
-  "frontier_note": "Backlog is drained older than this. Pre-March is 33 human conversations plus 2 self-sent notes - nothing archivable there. Frontier held on 2026-08-29: the June window (2026/06/01-2026/07/01) had 11 threads and all 11 were archivable, so it does not advance yet.",
-  "inbox_count": 143,
+  "frontier": "2026/08/17",
+  "frontier_note": "Backlog is drained older than this. Advanced from 2026/06/01 on 2026-10-13: the June window (2026/06/01-2026/07/01) returned zero threads, and `in:inbox before:2026/08/17` also returns zero, so 2026/08/17 is the date of the oldest thread still in the inbox (Budget Direct car inspection). The whole inbox now fits inside the 80-thread read cap, so each run reads all of it and the backlog window does nothing until the inbox grows past the cap again.",
+  "inbox_count": 14,
   "runs": [
     {
       "date": "2026-08-29",
@@ -9,6 +9,13 @@
       "inbox_count": 143,
       "backlog_window": "2026/06/01-2026/07/01",
       "note": "First recorded run. Inbox 245 -> 143. Newest-first through 23 Aug plus the June window. 11 threads left from the sweep: 2 people waiting, 4 open actions, 5 trips ahead."
+    },
+    {
+      "date": "2026-10-13",
+      "archived": 21,
+      "inbox_count": 14,
+      "backlog_window": "2026/06/01-2026/07/01 (empty)",
+      "note": "No run logged between 29 Aug and today, and the inbox was already at 35 when this run started - this task did not archive those ~129 threads, so do not read 143 -> 14 as its work. Read all 35, archived 21, left 14: 2 people waiting (Pan After $32, Anita x2) and 11 open actions. Backlog drained, frontier advanced to 2026/08/17. Flagged: a second self-sent 'Inbox Cleaner' runs in dry-run on sender/category rules and is one 'run live' reply from going live."
     }
   ]
 }
