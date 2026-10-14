@@ -1,7 +1,7 @@
 {
-  "frontier": "2026/06/01",
-  "frontier_note": "Backlog is drained older than this. Pre-March is 33 human conversations plus 2 self-sent notes - nothing archivable there. Frontier held on 2026-08-29: the June window (2026/06/01-2026/07/01) had 11 threads and all 11 were archivable, so it does not advance yet.",
-  "inbox_count": 143,
+  "frontier": "2026/08/17",
+  "frontier_note": "Backlog drained. Advanced from 2026/06/01 on 2026-10-14: the June window (2026/06/01-2026/07/01) returned zero threads, and a direct check of `in:inbox before:2026/08/18` returned exactly one thread (the 17 Aug Budget Direct notice, still open). So the intervening windows were verified empty, not assumed, and the frontier moved the whole way rather than one window. There is no backlog left to work: the oldest thread in the inbox is 17 Aug 2026. Runs can read newest-first only until this changes.",
+  "inbox_count": 16,
   "runs": [
     {
       "date": "2026-08-29",
@@ -9,6 +9,13 @@
       "inbox_count": 143,
       "backlog_window": "2026/06/01-2026/07/01",
       "note": "First recorded run. Inbox 245 -> 143. Newest-first through 23 Aug plus the June window. 11 threads left from the sweep: 2 people waiting, 4 open actions, 5 trips ahead."
+    },
+    {
+      "date": "2026-10-14",
+      "archived": 65,
+      "inbox_count": 16,
+      "backlog_window": "2026/06/01-2026/07/01 (empty)",
+      "note": "First run after ~6.5 weeks dormant. Inbox 81 -> 16; the drop from 143 to 81 was Miles clearing it by hand during the gap. Whole inbox read (81 threads, 1 over the cap). 47 of the 65 archived were GitHub Actions failures from one root cause: the Actions budget cap. Frontier advanced to 2026/08/17 - backlog drained. 16 left: 2 people waiting, 14 open actions. Least certain call: left Vlad's unredeemed $100 Pan After gift card, which is in tension with fixture 15; second, left the Freshworks $2k receivable with nobody waiting on Miles. Both logged as candidate fixtures."
     }
   ]
 }
