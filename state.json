@@ -1,7 +1,7 @@
 {
-  "frontier": "2026/06/01",
-  "frontier_note": "Backlog is drained older than this. Pre-March is 33 human conversations plus 2 self-sent notes - nothing archivable there. Frontier held on 2026-08-29: the June window (2026/06/01-2026/07/01) had 11 threads and all 11 were archivable, so it does not advance yet.",
-  "inbox_count": 143,
+  "frontier": "2026/08/01",
+  "frontier_note": "Advanced on 2026-10-15: the June window (2026/06/01-2026/07/01) came back with nothing at all - `in:inbox before:2026/08/17` is empty, so the whole backlog older than 17 Aug is out of the inbox. Not this task's doing; see runs/2026-10-15.md. The next window (2026/08/01-2026/09/01) holds exactly one thread, the Budget Direct inspection, which is deliberately left in, so that window will not report 'nothing archivable' while it is unresolved.",
+  "inbox_count": 12,
   "runs": [
     {
       "date": "2026-08-29",
@@ -9,6 +9,13 @@
       "inbox_count": 143,
       "backlog_window": "2026/06/01-2026/07/01",
       "note": "First recorded run. Inbox 245 -> 143. Newest-first through 23 Aug plus the June window. 11 threads left from the sweep: 2 people waiting, 4 open actions, 5 trips ahead."
+    },
+    {
+      "date": "2026-10-15",
+      "archived": 42,
+      "inbox_count": 12,
+      "backlog_window": "2026/06/01-2026/07/01",
+      "note": "First run since 29 Aug. Opened on 54 threads, not the 143 recorded - ~89 left the inbox between runs without a run happening, so the fall to 12 is not all this task's work. Whole inbox read (54, under the cap). 12 left: 2 people waiting, 10 open actions. June window empty, frontier advanced to 2026/08/01. Flagged for review: an [Inbox Cleaner] dry-run in sent mail on 12 Oct that sweeps by sender and category."
     }
   ]
 }
