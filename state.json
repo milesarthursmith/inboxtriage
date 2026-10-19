@@ -1,7 +1,7 @@
 {
-  "frontier": "2026/06/01",
-  "frontier_note": "Backlog is drained older than this. Pre-March is 33 human conversations plus 2 self-sent notes - nothing archivable there. Frontier held on 2026-08-29: the June window (2026/06/01-2026/07/01) had 11 threads and all 11 were archivable, so it does not advance yet.",
-  "inbox_count": 143,
+  "frontier": "2026/08/17",
+  "frontier_note": "Backlog is drained older than this - verified on 2026-10-19: `in:inbox before:2026/08/17` returns nothing, and the June window (2026/06/01-2026/07/01) is empty, so the window came back with nothing archivable and the frontier advanced from 2026/06/01. Pre-March was 33 human conversations plus 2 self-sent notes; those are gone from the inbox too. The whole inbox now fits inside the 80-thread newest-first sweep, so there is no backlog window to work until it grows past 80 again.",
+  "inbox_count": 13,
   "runs": [
     {
       "date": "2026-08-29",
@@ -9,6 +9,13 @@
       "inbox_count": 143,
       "backlog_window": "2026/06/01-2026/07/01",
       "note": "First recorded run. Inbox 245 -> 143. Newest-first through 23 Aug plus the June window. 11 threads left from the sweep: 2 people waiting, 4 open actions, 5 trips ahead."
+    },
+    {
+      "date": "2026-10-19",
+      "archived": 74,
+      "inbox_count": 13,
+      "backlog_window": "2026/06/01-2026/07/01 (empty - frontier advanced to 2026/08/17)",
+      "note": "First run in 51 days. Inbox 87 -> 13; count falling 245 -> 143 -> 13, no flat-count alarm. Read the whole inbox (19 Oct back to 17 Aug). 38 of the 74 archived were GitHub Actions 'run failed' notices. 13 left: 2 people waiting (Pan After $32, Agensi first contact), 11 open actions incl. Roofrite tech tomorrow, Vercel AI Gateway credits at zero, Linkt $10.78 overdue, mortgage repayment rising to $4,143.54 by 3 Dec. Close calls to check: the Anita Gibbs thread (archived while active today, no open question) and whether fixture 14 should keep cold vendor outreach."
     }
   ]
 }
