@@ -1,7 +1,7 @@
 {
-  "frontier": "2026/06/01",
-  "frontier_note": "Backlog is drained older than this. Pre-March is 33 human conversations plus 2 self-sent notes - nothing archivable there. Frontier held on 2026-08-29: the June window (2026/06/01-2026/07/01) had 11 threads and all 11 were archivable, so it does not advance yet.",
-  "inbox_count": 143,
+  "frontier": "2026/08/17",
+  "frontier_note": "Backlog is drained older than this. Advanced on 2026-10-20: the June window (2026/06/01-2026/07/01) that held the frontier on 2026-08-29 came back empty, and `in:inbox before:2026/08/17` is also empty, so nothing archivable remains behind the frontier. The oldest thread in the inbox is the Budget Direct car inspection of 17 Aug. With the inbox at 18 threads there is no backlog window to read - the newest-first sweep covers everything until the inbox passes the 80-thread cap again.",
+  "inbox_count": 18,
   "runs": [
     {
       "date": "2026-08-29",
@@ -9,6 +9,13 @@
       "inbox_count": 143,
       "backlog_window": "2026/06/01-2026/07/01",
       "note": "First recorded run. Inbox 245 -> 143. Newest-first through 23 Aug plus the June window. 11 threads left from the sweep: 2 people waiting, 4 open actions, 5 trips ahead."
+    },
+    {
+      "date": "2026-10-20",
+      "archived": 61,
+      "inbox_count": 18,
+      "backlog_window": "none - whole inbox read",
+      "note": "First run in 52 days. Inbox 79 -> 18; the whole inbox fitted under the 80-thread cap so it was read in full, no separate window. 38 of the 61 archived were GitHub Actions run-failure mails, explained by the Actions budget hitting 100% of $200 (that notice stays). 18 left: 3 people waiting, 7 dated actions, 8 undated open actions. Frontier advanced to 2026/08/17 - no backlog remains. Flagged for review: a second [Inbox Cleaner] agent is triaging this inbox from a 25-thread partial view."
     }
   ]
 }
