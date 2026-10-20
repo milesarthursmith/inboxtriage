@@ -1,0 +1,4 @@
+# The daily brief is delivered to Miles and then gone - RULES.md makes
+# runs/YYYY-MM-DD.md the durable record, not the brief. Generated fresh
+# every run, so it is never committed.
+brief-*.html
