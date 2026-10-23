@@ -1,7 +1,7 @@
 {
-  "frontier": "2026/06/01",
-  "frontier_note": "Backlog is drained older than this. Pre-March is 33 human conversations plus 2 self-sent notes - nothing archivable there. Frontier held on 2026-08-29: the June window (2026/06/01-2026/07/01) had 11 threads and all 11 were archivable, so it does not advance yet.",
-  "inbox_count": 143,
+  "frontier": "2026/08/18",
+  "frontier_note": "Backlog is drained older than this. Advanced on 2026-10-23: the June window (2026/06/01-2026/07/01) returned zero threads, and a direct check of `in:inbox before:2026/06/01` and `in:inbox after:2026/06/01 before:2026/08/18` found nothing except the one Budget Direct thread of 17 Aug, which is a live open action and stays. The whole inbox now fits inside one newest-first pass, so the backlog window has nothing left to chew on - see runs/2026-10-23.md.",
+  "inbox_count": 22,
   "runs": [
     {
       "date": "2026-08-29",
@@ -9,6 +9,13 @@
       "inbox_count": 143,
       "backlog_window": "2026/06/01-2026/07/01",
       "note": "First recorded run. Inbox 245 -> 143. Newest-first through 23 Aug plus the June window. 11 threads left from the sweep: 2 people waiting, 4 open actions, 5 trips ahead."
+    },
+    {
+      "date": "2026-10-23",
+      "archived": 119,
+      "inbox_count": 22,
+      "backlog_window": "2026/06/01-2026/08/18 (empty)",
+      "note": "First run in 8 weeks. Inbox 139 -> 22. Read the whole inbox, not just 80, because the backlog window was empty and 53 threads were one dead GitHub Actions class. 22 left: 3 people waiting, 17 open actions, 2 self-sent notes. Fired at 5:05pm AEDT, not 7am - trigger time needs fixing. One deliberate departure from RULES fact 2 on the 53 GitHub CI threads, flagged in the run log for the review to rule on."
     }
   ]
 }
