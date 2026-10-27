@@ -1,7 +1,7 @@
 {
-  "frontier": "2026/06/01",
-  "frontier_note": "Backlog is drained older than this. Pre-March is 33 human conversations plus 2 self-sent notes - nothing archivable there. Frontier held on 2026-08-29: the June window (2026/06/01-2026/07/01) had 11 threads and all 11 were archivable, so it does not advance yet.",
-  "inbox_count": 143,
+  "frontier": "2026/07/01",
+  "frontier_note": "Backlog is drained older than this. Pre-March is 33 human conversations plus 2 self-sent notes - nothing archivable there. Advanced on 2026-10-27: the June window (2026/06/01-2026/07/01) returned zero inbox threads, so nothing archivable came back and the frontier moves to 2026/07/01. Next window is 2026/07/01-2026/08/01.",
+  "inbox_count": 10,
   "runs": [
     {
       "date": "2026-08-29",
@@ -9,6 +9,13 @@
       "inbox_count": 143,
       "backlog_window": "2026/06/01-2026/07/01",
       "note": "First recorded run. Inbox 245 -> 143. Newest-first through 23 Aug plus the June window. 11 threads left from the sweep: 2 people waiting, 4 open actions, 5 trips ahead."
+    },
+    {
+      "date": "2026-10-27",
+      "archived": 23,
+      "inbox_count": 10,
+      "backlog_window": "2026/06/01-2026/07/01",
+      "note": "Inbox 33 -> 10. Whole inbox read in one page (under the 80 cap). June window empty, so frontier advances. Two system findings: this task did not run between 29 Aug and 27 Oct, and the inbox fell 143 -> 33 in that gap with nothing logged; and a second sweeper, '[Inbox Cleaner]', is now sending dry-run previews, one of which proposed archiving the Agensi thread that FIXTURES #14 protects. 10 left: 3 people waiting, 7 open actions."
     }
   ]
 }
