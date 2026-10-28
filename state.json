@@ -1,7 +1,7 @@
 {
-  "frontier": "2026/06/01",
-  "frontier_note": "Backlog is drained older than this. Pre-March is 33 human conversations plus 2 self-sent notes - nothing archivable there. Frontier held on 2026-08-29: the June window (2026/06/01-2026/07/01) had 11 threads and all 11 were archivable, so it does not advance yet.",
-  "inbox_count": 143,
+  "frontier": "2026/07/01",
+  "frontier_note": "Backlog is drained older than this. Pre-March is 33 human conversations plus 2 self-sent notes - nothing archivable there. Advanced on 2026-10-28: the June window (2026/06/01-2026/07/01) returned zero threads in the inbox, so it came back with nothing archivable. Next window is 2026/07/01-2026/08/01.",
+  "inbox_count": 10,
   "runs": [
     {
       "date": "2026-08-29",
@@ -9,6 +9,13 @@
       "inbox_count": 143,
       "backlog_window": "2026/06/01-2026/07/01",
       "note": "First recorded run. Inbox 245 -> 143. Newest-first through 23 Aug plus the June window. 11 threads left from the sweep: 2 people waiting, 4 open actions, 5 trips ahead."
+    },
+    {
+      "date": "2026-10-28",
+      "archived": 16,
+      "inbox_count": 10,
+      "backlog_window": "2026/06/01-2026/07/01",
+      "note": "First run since 2026-08-29; inbox had fallen 143 -> 26 in between with no run logged, so ~117 threads were cleared outside this task. Whole inbox read (26 threads, under the 80 cap). June window empty, so frontier advances to 2026/07/01. 10 left: 3 people waiting, 7 open actions. Live item: More Telecom suspension in 7 days, $100 overdue, 3rd failed debit."
     }
   ]
 }
