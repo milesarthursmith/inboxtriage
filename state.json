@@ -1,7 +1,7 @@
 {
-  "frontier": "2026/06/01",
-  "frontier_note": "Backlog is drained older than this. Pre-March is 33 human conversations plus 2 self-sent notes - nothing archivable there. Frontier held on 2026-08-29: the June window (2026/06/01-2026/07/01) had 11 threads and all 11 were archivable, so it does not advance yet.",
-  "inbox_count": 143,
+  "frontier": "2026/08/19",
+  "frontier_note": "Backlog is drained older than this. Advanced from 2026/06/01 on 2026-10-29: the June window (2026/06/01-2026/07/01) returned zero threads, and so did `in:inbox before:2026/08/19`, so the backlog is drained outright rather than window by window. 2026/08/19 is the oldest thread still in the inbox (Pan After, Telephone Wire Exchange). While the inbox stays under the 80-thread cap the newest-first sweep covers everything and there is no backlog window left to read.",
+  "inbox_count": 10,
   "runs": [
     {
       "date": "2026-08-29",
@@ -9,6 +9,13 @@
       "inbox_count": 143,
       "backlog_window": "2026/06/01-2026/07/01",
       "note": "First recorded run. Inbox 245 -> 143. Newest-first through 23 Aug plus the June window. 11 threads left from the sweep: 2 people waiting, 4 open actions, 5 trips ahead."
+    },
+    {
+      "date": "2026-10-29",
+      "archived": 19,
+      "inbox_count": 10,
+      "backlog_window": "2026/06/01-2026/07/01 (empty)",
+      "note": "First run since 29 Aug; the task did not fire for two months. Inbox was already down to 29 when this run started - Miles cleared the Aug remainder and the backlog himself - so 143 -> 10 is mostly his. Read all 29, archived 19, 11 of them close calls. Left 10: 5 people, 5 money or collection. Backlog window empty, frontier advanced to 2026/08/19. Urgent: More Telecom suspension ~4 Nov over $100 unpaid - notified."
     }
   ]
 }
