@@ -1,7 +1,7 @@
 {
-  "frontier": "2026/06/01",
-  "frontier_note": "Backlog is drained older than this. Pre-March is 33 human conversations plus 2 self-sent notes - nothing archivable there. Frontier held on 2026-08-29: the June window (2026/06/01-2026/07/01) had 11 threads and all 11 were archivable, so it does not advance yet.",
-  "inbox_count": 143,
+  "frontier": "2026/10/01",
+  "frontier_note": "Backlog is drained older than this. Advanced from 2026/06/01 on 2026-10-30: the June window (2026/06/01-2026/07/01) returned zero inbox threads, and `in:inbox before:2026/10/01` returns only 2 threads, both deliberately kept live (Pan After $32 outstanding, prescription reorder). No backlog window remains to sweep - the inbox pass is the whole job until mail ages past this line again.",
+  "inbox_count": 13,
   "runs": [
     {
       "date": "2026-08-29",
@@ -9,6 +9,13 @@
       "inbox_count": 143,
       "backlog_window": "2026/06/01-2026/07/01",
       "note": "First recorded run. Inbox 245 -> 143. Newest-first through 23 Aug plus the June window. 11 threads left from the sweep: 2 people waiting, 4 open actions, 5 trips ahead."
+    },
+    {
+      "date": "2026-10-30",
+      "archived": 10,
+      "inbox_count": 13,
+      "backlog_window": "2026/06/01-2026/07/01 (empty)",
+      "note": "Inbox was 23 at start, not the 143 state.json expected - self-sent '[Inbox Cleaner] Preview' dry-run emails from 12/19/26 Oct show a second automation reviewing the same inbox, which explains the gap. Read all 23, archived 10. 13 left: 4 people waiting, 9 open actions incl. Anthropic key expiry 31 Oct and More Telecom suspension ~4 Nov. Frontier advanced to 2026/10/01 on evidence."
     }
   ]
 }
