@@ -1,7 +1,7 @@
 {
-  "frontier": "2026/06/01",
-  "frontier_note": "Backlog is drained older than this. Pre-March is 33 human conversations plus 2 self-sent notes - nothing archivable there. Frontier held on 2026-08-29: the June window (2026/06/01-2026/07/01) had 11 threads and all 11 were archivable, so it does not advance yet.",
-  "inbox_count": 143,
+  "frontier": "2026/07/01",
+  "frontier_note": "Backlog is drained older than this. Advanced on 2026-11-02: the June window (2026/06/01-2026/07/01) returned zero threads, which is the 'nothing archivable' condition. Note the backlog window is vestigial for now - after this run the inbox holds nothing older than 2026-09-12, so there is no backlog below the newest-first sweep until the inbox grows again.",
+  "inbox_count": 11,
   "runs": [
     {
       "date": "2026-08-29",
@@ -9,6 +9,13 @@
       "inbox_count": 143,
       "backlog_window": "2026/06/01-2026/07/01",
       "note": "First recorded run. Inbox 245 -> 143. Newest-first through 23 Aug plus the June window. 11 threads left from the sweep: 2 people waiting, 4 open actions, 5 trips ahead."
+    },
+    {
+      "date": "2026-11-02",
+      "archived": 45,
+      "inbox_count": 11,
+      "backlog_window": "2026/06/01-2026/07/01",
+      "note": "First run since 29 Aug - the 7am schedule did not fire for 65 days, worth checking. Inbox 56 -> 11; Miles cleared most of the 143 himself in between. All 56 read (under the 80 cap, so the whole inbox was the sweep). June window empty, so frontier advances to 2026/07/01. Left: 4 people waiting, 7 open actions incl. More Telecom suspension ~4 Nov and ATO $6,464.70 due 23 Nov. search_threads was NOT newest-first on in:inbox this run - enumerated by absolute date windows instead; RULES fact 3 needs amending."
     }
   ]
 }
