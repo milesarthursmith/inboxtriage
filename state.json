@@ -1,7 +1,7 @@
 {
-  "frontier": "2026/06/01",
-  "frontier_note": "Backlog is drained older than this. Pre-March is 33 human conversations plus 2 self-sent notes - nothing archivable there. Frontier held on 2026-08-29: the June window (2026/06/01-2026/07/01) had 11 threads and all 11 were archivable, so it does not advance yet.",
-  "inbox_count": 143,
+  "frontier": "2026/10/01",
+  "frontier_note": "Backlog is drained older than this. Advanced on 2026-11-05: the June window (2026/06/01-2026/07/01) returned zero inbox threads, and a wider check (in:inbox before:2026/10/01) returned only 2, both kept as live (My Mac collection 6 Oct, Simple reorder 12 Sep). Pre-March was 33 human conversations plus 2 self-sent notes - nothing archivable there. Next window to sweep when the frontier next holds: 2026/10/01-2026/11/01.",
+  "inbox_count": 12,
   "runs": [
     {
       "date": "2026-08-29",
@@ -9,6 +9,13 @@
       "inbox_count": 143,
       "backlog_window": "2026/06/01-2026/07/01",
       "note": "First recorded run. Inbox 245 -> 143. Newest-first through 23 Aug plus the June window. 11 threads left from the sweep: 2 people waiting, 4 open actions, 5 trips ahead."
+    },
+    {
+      "date": "2026-11-05",
+      "archived": 17,
+      "inbox_count": 12,
+      "backlog_window": "2026/06/01-2026/07/01",
+      "note": "First run since 2026-08-29; the schedule did not fire in between. state.json said 143 but the inbox held 29 - Miles cleared ~114 himself, including all 11 threads left on 29 Aug. Archived 17 of 29, 9 of them close calls. 12 left: 3 people waiting, 1 first-contact, 8 open actions. Headline: Spencer Horton asked 20 Oct for a consulting agreement + $3,000 USD invoice and neither has been sent. June window empty, frontier advanced to 2026/10/01."
     }
   ]
 }
