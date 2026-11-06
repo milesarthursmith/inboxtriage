@@ -1,7 +1,7 @@
 {
-  "frontier": "2026/06/01",
-  "frontier_note": "Backlog is drained older than this. Pre-March is 33 human conversations plus 2 self-sent notes - nothing archivable there. Frontier held on 2026-08-29: the June window (2026/06/01-2026/07/01) had 11 threads and all 11 were archivable, so it does not advance yet.",
-  "inbox_count": 143,
+  "frontier": "2026/11/01",
+  "frontier_note": "No backlog exists. On 2026-11-06 the June window (2026/06/01-2026/07/01) returned zero threads and the whole inbox was 31 threads - under the 80-thread newest-first cap - so every thread was read in one pass and there is nothing older than the frontier to drain. Advanced from 2026/06/01 because the window came back empty, but read this as 'the mechanism is inert', not as progress: inbox_count fell 143 -> 31 between 2026-08-29 and 2026-11-06 and this task did not do it, Miles cleared it himself. The frontier only matters again if the inbox exceeds 80 threads, at which point reset it to the oldest date not covered by that pass.",
+  "inbox_count": 14,
   "runs": [
     {
       "date": "2026-08-29",
@@ -9,6 +9,13 @@
       "inbox_count": 143,
       "backlog_window": "2026/06/01-2026/07/01",
       "note": "First recorded run. Inbox 245 -> 143. Newest-first through 23 Aug plus the June window. 11 threads left from the sweep: 2 people waiting, 4 open actions, 5 trips ahead."
+    },
+    {
+      "date": "2026-11-06",
+      "archived": 17,
+      "inbox_count": 14,
+      "backlog_window": "2026/06/01-2026/07/01 (empty)",
+      "note": "First run in 10 weeks. Inbox 31 -> 14; whole inbox read in one pass, backlog window empty. None of the 11 threads the 29 Aug run left are still in the inbox, and nothing it archived has reappeared - no wrong archive to find. 14 left: 4 people waiting, 10 open actions. More ($100) and Linkt ($10.78) are past their deadlines; ATO $6,464.70 due 23 Nov. Frontier advanced but inert - see frontier_note."
     }
   ]
 }
