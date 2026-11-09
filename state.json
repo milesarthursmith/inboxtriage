@@ -1,7 +1,7 @@
 {
-  "frontier": "2026/06/01",
-  "frontier_note": "Backlog is drained older than this. Pre-March is 33 human conversations plus 2 self-sent notes - nothing archivable there. Frontier held on 2026-08-29: the June window (2026/06/01-2026/07/01) had 11 threads and all 11 were archivable, so it does not advance yet.",
-  "inbox_count": 143,
+  "frontier": "2026/11/01",
+  "frontier_note": "Backlog is drained older than this. The 2026/06/01-2026/07/01 window returned zero threads on 2026-11-09, so the frontier advanced. It jumped past July-October rather than one month, because `in:inbox before:2026/10/01` returned only 2 threads and the whole inbox (46) fit under the 80-thread cap and was read in full - there was no backlog left separate from the main sweep. Next run: if the inbox is again under the cap, there is no backlog window to read; if it is over, start windows at 2026/11/01 and work back.",
+  "inbox_count": 15,
   "runs": [
     {
       "date": "2026-08-29",
@@ -9,6 +9,13 @@
       "inbox_count": 143,
       "backlog_window": "2026/06/01-2026/07/01",
       "note": "First recorded run. Inbox 245 -> 143. Newest-first through 23 Aug plus the June window. 11 threads left from the sweep: 2 people waiting, 4 open actions, 5 trips ahead."
+    },
+    {
+      "date": "2026-11-09",
+      "archived": 31,
+      "inbox_count": 15,
+      "backlog_window": "2026/06/01-2026/07/01 (empty)",
+      "note": "First run in 72 days. Inbox 46 -> 15; whole inbox read in one pass, under the 80 cap. state.json had recorded 143 but the inbox held 46 - ~97 cleared by hand over the gap, or the 143 was wrong when written. June window returned zero threads, so frontier advanced to 2026/11/01. 15 left: 3 people waiting, 12 open actions. Five payment failures across More, Linkt, Hostinger, Google Workspace and Claude Ultra look like one dead card; led the brief with it."
     }
   ]
 }
