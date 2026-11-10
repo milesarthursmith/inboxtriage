@@ -1,7 +1,7 @@
 {
-  "frontier": "2026/06/01",
-  "frontier_note": "Backlog is drained older than this. Pre-March is 33 human conversations plus 2 self-sent notes - nothing archivable there. Frontier held on 2026-08-29: the June window (2026/06/01-2026/07/01) had 11 threads and all 11 were archivable, so it does not advance yet.",
-  "inbox_count": 143,
+  "frontier": "2026/11/10",
+  "frontier_note": "Backlog fully drained. Advanced from 2026/06/01 on 2026-11-10: the June window (2026/06/01-2026/07/01) returned zero threads, and `in:inbox before:2026/09/12` returned only the Pan After thread, which that run read. The whole inbox was 48 threads, well under the 80 cap, so it was read end-to-end and there is no older region left to sweep. Backlog windows are moot until the inbox grows past the cap again; if it does, set the frontier back to the oldest thread still unread.",
+  "inbox_count": 15,
   "runs": [
     {
       "date": "2026-08-29",
@@ -9,6 +9,13 @@
       "inbox_count": 143,
       "backlog_window": "2026/06/01-2026/07/01",
       "note": "First recorded run. Inbox 245 -> 143. Newest-first through 23 Aug plus the June window. 11 threads left from the sweep: 2 people waiting, 4 open actions, 5 trips ahead."
+    },
+    {
+      "date": "2026-11-10",
+      "archived": 34,
+      "inbox_count": 15,
+      "backlog_window": "none - whole inbox read, backlog empty",
+      "note": "First run recorded since 29 Aug; 10-week gap in runs/, and the 143 -> 48 drop in between was not this task's work. Read all 48 threads plus 1 that arrived mid-run. Headline: six services failed to charge him in three weeks (More, Linkt, LinkedIn, Hostinger, Google Workspace, Apple) and Relevance AI is out of credits - one dead card explains most of the inbox. Left 15: 4 people waiting (incl. Spencer Horton, $3,000 USD unbilled and blocked on an agreement + invoice he didn't attach), 11 dated actions. Frontier advanced to today."
     }
   ]
 }
