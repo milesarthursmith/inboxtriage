@@ -1,7 +1,8 @@
 {
-  "frontier": "2026/06/01",
-  "frontier_note": "Backlog is drained older than this. Pre-March is 33 human conversations plus 2 self-sent notes - nothing archivable there. Frontier held on 2026-08-29: the June window (2026/06/01-2026/07/01) had 11 threads and all 11 were archivable, so it does not advance yet.",
-  "inbox_count": 143,
+  "frontier": "2026/09/01",
+  "frontier_note": "Backlog is drained older than this. Advanced on 2026-11-12: the June window (2026/06/01-2026/07/01) returned zero threads, and a direct check of 'in:inbox before:2026/09/01' returned only the live Pan After payment thread - nothing archivable in the inbox predates September. Pre-March remains 33 human conversations plus 2 self-sent notes. Future runs need not spend a window below this date.",
+  "inbox_count": 19,
+  "inbox_count_note": "19 threads returned by in:inbox. 15 are real and actionable; 4 (1a1c93e02bbe9eac, 1a1c93dfd710f38e, 1a1c8b4142d9e9b9, 1a1c8b410653c04b, all 11 Nov) return no readable message in any format and were left untouched. The actionable figure is 15.",
   "runs": [
     {
       "date": "2026-08-29",
@@ -9,6 +10,13 @@
       "inbox_count": 143,
       "backlog_window": "2026/06/01-2026/07/01",
       "note": "First recorded run. Inbox 245 -> 143. Newest-first through 23 Aug plus the June window. 11 threads left from the sweep: 2 people waiting, 4 open actions, 5 trips ahead."
+    },
+    {
+      "date": "2026-11-12",
+      "archived": 37,
+      "inbox_count": 19,
+      "backlog_window": "2026/06/01-2026/07/01 (empty)",
+      "note": "75 days after the previous recorded run; the 7am schedule appears not to have been firing, and this one fired 5:08pm Melbourne. Miles had cleared 143 -> 56 himself. Whole inbox read, no 80-thread cut-off. Archived 37, left 15 actionable + 4 unreadable ghost threads. June window empty so frontier advanced to 2026/09/01. 5 people waiting, 10 dated open actions. Biggest find: Freshworks has waited since 20 Oct for an agreement + invoice for US$3,000 that was never sent."
     }
   ]
 }
