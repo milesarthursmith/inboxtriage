@@ -1,7 +1,8 @@
 {
-  "frontier": "2026/06/01",
-  "frontier_note": "Backlog is drained older than this. Pre-March is 33 human conversations plus 2 self-sent notes - nothing archivable there. Frontier held on 2026-08-29: the June window (2026/06/01-2026/07/01) had 11 threads and all 11 were archivable, so it does not advance yet.",
-  "inbox_count": 143,
+  "frontier": "2026/09/01",
+  "frontier_note": "Backlog drained. On 2026-11-13 the June window (2026/06/01-2026/07/01) came back empty, July came back empty, and August held only the live Pan After thread, so the frontier advanced past the whole backlog. The pre-March set described in the 2026-08-29 note is gone from the inbox. From here there is no backlog window to work: the task reads the live inbox and the frontier only moves if mail older than it reappears.",
+  "inbox_count": 19,
+  "inbox_count_note": "15 readable threads plus 4 from 11 Nov that the Gmail connector refuses to serve (automated Anthropic account mail). Those 4 cannot be read, so under RULES fact 2 they cannot be archived, and they will sit in this count until the review decides what to do about them. See runs/2026-11-13.md.",
   "runs": [
     {
       "date": "2026-08-29",
@@ -9,6 +10,13 @@
       "inbox_count": 143,
       "backlog_window": "2026/06/01-2026/07/01",
       "note": "First recorded run. Inbox 245 -> 143. Newest-first through 23 Aug plus the June window. 11 threads left from the sweep: 2 people waiting, 4 open actions, 5 trips ahead."
+    },
+    {
+      "date": "2026-11-13",
+      "archived": 15,
+      "inbox_count": 19,
+      "backlog_window": "2026/06/01-2026/07/01 (empty), 2026/07/01-2026/08/01 (empty), 2026/08/01-2026/09/01 (1 live thread)",
+      "note": "No runs recorded between 2026-08-29 and today, 76 days, so the 5-run inbox_count trend is not computable and the 143 -> 34 fall happened mostly outside this system. Whole inbox read: 34 threads, 15 archived, 19 left (4 of them unreadable). Backlog drained, frontier advanced to 2026/09/01. 4 people waiting, 11 open actions, biggest being $6,464.70 ATO due 23 Nov."
     }
   ]
 }
