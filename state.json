@@ -1,7 +1,7 @@
 {
-  "frontier": "2026/06/01",
-  "frontier_note": "Backlog is drained older than this. Pre-March is 33 human conversations plus 2 self-sent notes - nothing archivable there. Frontier held on 2026-08-29: the June window (2026/06/01-2026/07/01) had 11 threads and all 11 were archivable, so it does not advance yet.",
-  "inbox_count": 143,
+  "frontier": "2026/09/12",
+  "frontier_note": "Backlog is drained older than this. Advanced on 2026-11-16: the June window (2026/06/01-2026/07/01) returned nothing at all, and `in:inbox before:2026/09/12` returned only the live Pan After thread, so there is nothing archivable left behind the frontier. The whole inbox now fits inside the newest-first read window; no backlog window is needed until it passes 80 threads again. Pre-March was 33 human conversations plus 2 self-sent notes - note that one self-sent note was archived on 2026-11-16, which contradicts that reading; see runs/2026-11-16.md.",
+  "inbox_count": 14,
   "runs": [
     {
       "date": "2026-08-29",
@@ -9,6 +9,13 @@
       "inbox_count": 143,
       "backlog_window": "2026/06/01-2026/07/01",
       "note": "First recorded run. Inbox 245 -> 143. Newest-first through 23 Aug plus the June window. 11 threads left from the sweep: 2 people waiting, 4 open actions, 5 trips ahead."
+    },
+    {
+      "date": "2026-11-16",
+      "archived": 42,
+      "inbox_count": 14,
+      "backlog_window": "2026/06/01-2026/07/01 (empty)",
+      "note": "First run since 29 Aug - the schedule did not fire for 11 weeks. Inbox was 56 on arrival, not the 143 recorded: Miles cleared ~87 himself. Read the whole inbox (56, inside the 80 cap). Archived 42, left 14: 4 people waiting, 10 open actions. Frontier advanced to 2026/09/12. Biggest finds: $6,464.70 ATO assessment due 23 Nov, and $3,000 USD unbilled at Freshworks because the agreement and invoice Spencer asked for on 20 Oct were never sent."
     }
   ]
 }
