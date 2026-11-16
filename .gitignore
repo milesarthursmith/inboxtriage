@@ -1,0 +1,5 @@
+# The daily brief is delivered to Miles and then gone - see RULES.md.
+# runs/YYYY-MM-DD.md is the durable record, and it is what the weekly
+# review reads. Keeping briefs in the repo would give the review a second,
+# friendlier-looking source and let it skip the run logs.
+brief-*.html
