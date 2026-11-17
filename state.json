@@ -1,7 +1,7 @@
 {
-  "frontier": "2026/06/01",
-  "frontier_note": "Backlog is drained older than this. Pre-March is 33 human conversations plus 2 self-sent notes - nothing archivable there. Frontier held on 2026-08-29: the June window (2026/06/01-2026/07/01) had 11 threads and all 11 were archivable, so it does not advance yet.",
-  "inbox_count": 143,
+  "frontier": "2026/08/19",
+  "frontier_note": "Backlog is drained older than this. Pre-March is 33 human conversations plus 2 self-sent notes - nothing archivable there. Advanced on 2026-11-17: the June window (2026/06/01-2026/07/01) and a second window (2026/07/01-2026/08/19) both returned zero inbox threads, so there was nothing archivable in either. 2026/08/19 is the date of the oldest thread still in the inbox (Pan After, a person waiting on a reply).",
+  "inbox_count": 19,
   "runs": [
     {
       "date": "2026-08-29",
@@ -9,6 +9,13 @@
       "inbox_count": 143,
       "backlog_window": "2026/06/01-2026/07/01",
       "note": "First recorded run. Inbox 245 -> 143. Newest-first through 23 Aug plus the June window. 11 threads left from the sweep: 2 people waiting, 4 open actions, 5 trips ahead."
+    },
+    {
+      "date": "2026-11-17",
+      "archived": 10,
+      "inbox_count": 19,
+      "backlog_window": "2026/06/01-2026/07/01 and 2026/07/01-2026/08/19, both empty",
+      "note": "First run in 80 days. Inbox 29 -> 19. Whole inbox read newest-first. Most of the 143 -> 29 fall was Miles clearing it himself between runs, not this task - do not read it as evidence the rules are working. 14 readable threads left: 4 people waiting (incl. Freshworks owed an agreement + $3,000 invoice), 10 open actions (ATO $6,464.70 due 23 Nov is the live one). 5 further threads are counted in the inbox but unreadable through the Gmail tools - filtered as spam/confidential/suspicious - so they could not be archived."
     }
   ]
 }
