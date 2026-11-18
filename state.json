@@ -1,7 +1,7 @@
 {
-  "frontier": "2026/06/01",
-  "frontier_note": "Backlog is drained older than this. Pre-March is 33 human conversations plus 2 self-sent notes - nothing archivable there. Frontier held on 2026-08-29: the June window (2026/06/01-2026/07/01) had 11 threads and all 11 were archivable, so it does not advance yet.",
-  "inbox_count": 143,
+  "frontier": "2026/08/19",
+  "frontier_note": "Backlog is drained. Advanced on 2026-11-18: the June window (2026/06/01-2026/07/01) returned nothing, and an explicit check found nothing at all in the inbox older than 2026/08/19 (the oldest surviving thread is the live Pan After exchange, opened 19 Aug). There is no backlog window left to sweep; this task is now a pure newest-first run unless old mail reappears.",
+  "inbox_count": 22,
   "runs": [
     {
       "date": "2026-08-29",
@@ -9,6 +9,13 @@
       "inbox_count": 143,
       "backlog_window": "2026/06/01-2026/07/01",
       "note": "First recorded run. Inbox 245 -> 143. Newest-first through 23 Aug plus the June window. 11 threads left from the sweep: 2 people waiting, 4 open actions, 5 trips ahead."
+    },
+    {
+      "date": "2026-11-18",
+      "archived": 13,
+      "inbox_count": 22,
+      "backlog_window": "2026/06/01-2026/07/01 (empty)",
+      "note": "First run since 29 Aug; no runs logged in between. Found 35 threads, not the 143 state recorded - roughly 108 left the inbox via something else (a self-sent '[Inbox Cleaner] Preview' from 12 Oct exists), so the 143 -> 22 fall is NOT this task's work and the trend series has a gap. Archived 13, left 22: 5 people waiting, 11 open actions, 5 threads the Gmail connector withholds as Anthropic account mail and which therefore cannot be read or archived, plus the Grogans pre-sale that expires 10am 19 Nov. Fired 17:07 AEDT, not 07:00 - schedule looks set to 07:00 UTC. THREAD_VIEW_SUMMARY silently omitted the 5 withheld threads (30 vs 35); count inbox_count from THREAD_VIEW_IDS_ONLY only."
     }
   ]
 }
