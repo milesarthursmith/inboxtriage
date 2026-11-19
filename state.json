@@ -1,7 +1,7 @@
 {
-  "frontier": "2026/06/01",
-  "frontier_note": "Backlog is drained older than this. Pre-March is 33 human conversations plus 2 self-sent notes - nothing archivable there. Frontier held on 2026-08-29: the June window (2026/06/01-2026/07/01) had 11 threads and all 11 were archivable, so it does not advance yet.",
-  "inbox_count": 143,
+  "frontier": "2026/08/19",
+  "frontier_note": "Backlog is drained older than this. Advanced from 2026/06/01 on 2026-11-19: the June window (2026/06/01-2026/07/01) returned zero inbox threads, and so did `in:inbox before:2026/08/19`, so there are no backlog windows left to work - the oldest inbox thread is the Pan After thread that starts 19 Aug. Pre-March was 33 human conversations plus 2 self-sent notes, nothing archivable. If the inbox stays current, backlog windows are done and each run is just the newest-first sweep.",
+  "inbox_count": 20,
   "runs": [
     {
       "date": "2026-08-29",
@@ -9,6 +9,13 @@
       "inbox_count": 143,
       "backlog_window": "2026/06/01-2026/07/01",
       "note": "First recorded run. Inbox 245 -> 143. Newest-first through 23 Aug plus the June window. 11 threads left from the sweep: 2 people waiting, 4 open actions, 5 trips ahead."
+    },
+    {
+      "date": "2026-11-19",
+      "archived": 21,
+      "inbox_count": 20,
+      "backlog_window": "2026/06/01-2026/07/01 (empty - frontier advanced to 2026/08/19)",
+      "note": "First run in 82 days; Miles cleared 143 -> 40 himself in between. Whole inbox read (41 threads, under the cap). 20 left: 4 people/live threads, 11 open actions, 5 threads Gmail's API will not return the contents of. KEY FINDING: THREAD_VIEW_SUMMARY returned 35 threads where IDS_ONLY returned 40 - five threads are omitted from every readable view with no marker, so count with IDS_ONLY and reconcile, or threads get skipped silently."
     }
   ]
 }
