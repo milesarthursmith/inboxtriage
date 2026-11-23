@@ -1,7 +1,7 @@
 {
-  "frontier": "2026/06/01",
-  "frontier_note": "Backlog is drained older than this. Pre-March is 33 human conversations plus 2 self-sent notes - nothing archivable there. Frontier held on 2026-08-29: the June window (2026/06/01-2026/07/01) had 11 threads and all 11 were archivable, so it does not advance yet.",
-  "inbox_count": 143,
+  "frontier": "2026/09/01",
+  "frontier_note": "Backlog is drained older than this. Advanced on 2026-11-23: the June window (2026/06/01-2026/07/01) returned zero threads, and a full enumeration of the inbox found only one thread older than 2026/09/12 (Pan After, a live person-waiting thread deliberately kept). Pre-March remains 33 human conversations plus 2 self-sent notes - nothing archivable there.",
+  "inbox_count": 25,
   "runs": [
     {
       "date": "2026-08-29",
@@ -9,6 +9,13 @@
       "inbox_count": 143,
       "backlog_window": "2026/06/01-2026/07/01",
       "note": "First recorded run. Inbox 245 -> 143. Newest-first through 23 Aug plus the June window. 11 threads left from the sweep: 2 people waiting, 4 open actions, 5 trips ahead."
+    },
+    {
+      "date": "2026-11-23",
+      "archived": 39,
+      "inbox_count": 25,
+      "backlog_window": "2026/06/01-2026/07/01 (empty)",
+      "note": "First run since 2026-08-29; schedule appears to have been idle for Sep-Oct. Inbox 64 -> 25. Read the whole inbox, 64 threads, every one opened. 25 left: 4 people waiting, 16 open actions, 5 threads Gmail returns no body for (left per read-it-or-leave-it). Headline: ATO notice of assessment due 23 Nov, the day of the run - amount in the brief."
     }
   ]
 }
