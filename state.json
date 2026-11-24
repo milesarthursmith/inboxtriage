@@ -1,7 +1,7 @@
 {
-  "frontier": "2026/06/01",
-  "frontier_note": "Backlog is drained older than this. Pre-March is 33 human conversations plus 2 self-sent notes - nothing archivable there. Frontier held on 2026-08-29: the June window (2026/06/01-2026/07/01) had 11 threads and all 11 were archivable, so it does not advance yet.",
-  "inbox_count": 143,
+  "frontier": "2026/09/01",
+  "frontier_note": "Backlog is drained older than this. Pre-March is 33 human conversations plus 2 self-sent notes - nothing archivable there. Advanced on 2026-11-24: the June window (2026/06/01-2026/07/01) returned zero threads, and a sweep of in:inbox before:2026/09/01 returned exactly one thread (Pan After, 19 Aug, live and left), so everything older than 1 Sep is drained and the frontier skips July and August rather than re-checking two empty windows.",
+  "inbox_count": 26,
   "runs": [
     {
       "date": "2026-08-29",
@@ -9,6 +9,13 @@
       "inbox_count": 143,
       "backlog_window": "2026/06/01-2026/07/01",
       "note": "First recorded run. Inbox 245 -> 143. Newest-first through 23 Aug plus the June window. 11 threads left from the sweep: 2 people waiting, 4 open actions, 5 trips ahead."
+    },
+    {
+      "date": "2026-11-24",
+      "archived": 21,
+      "inbox_count": 26,
+      "backlog_window": "2026/06/01-2026/07/01",
+      "note": "87-day gap since the previous run - nothing logged in between, so a cold start. state.json said 143 threads; the inbox actually held 46, Miles having cleared ~97 himself while the task was silent, so the 5-run trend check had no trustworthy baseline this run. Whole inbox read (46, under the 80 cap). Inbox 46 -> 26: 4 people waiting, 17 open actions, 5 threads the Gmail tool will not show (automated Anthropic account mail, withheld - left unread per fact 2). June window empty, frontier advanced to 2026/09/01."
     }
   ]
 }
