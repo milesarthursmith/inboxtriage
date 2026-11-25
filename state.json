@@ -1,7 +1,7 @@
 {
-  "frontier": "2026/06/01",
-  "frontier_note": "Backlog is drained older than this. Pre-March is 33 human conversations plus 2 self-sent notes - nothing archivable there. Frontier held on 2026-08-29: the June window (2026/06/01-2026/07/01) had 11 threads and all 11 were archivable, so it does not advance yet.",
-  "inbox_count": 143,
+  "frontier": "2026/08/01",
+  "frontier_note": "Backlog is drained. Advanced from 2026/06/01 on 2026-11-25: the June window (2026/06/01-2026/07/01) returned zero threads, and a probe of in:inbox before:2026/08/01 also returned zero, so nothing older than August remains in the inbox. The two pre-October threads still there (Pan After 19 Aug, Simple Online Doctor 12 Sep) are deliberate leaves, not backlog. While the inbox stays under the 80-thread cap the newest-first pass covers everything and the backlog window is a formality.",
+  "inbox_count": 25,
   "runs": [
     {
       "date": "2026-08-29",
@@ -9,6 +9,13 @@
       "inbox_count": 143,
       "backlog_window": "2026/06/01-2026/07/01",
       "note": "First recorded run. Inbox 245 -> 143. Newest-first through 23 Aug plus the June window. 11 threads left from the sweep: 2 people waiting, 4 open actions, 5 trips ahead."
+    },
+    {
+      "date": "2026-11-25",
+      "archived": 18,
+      "inbox_count": 25,
+      "backlog_window": "2026/06/01-2026/07/01 (empty)",
+      "note": "First run since 2026-08-29 - the weekday task did not fire for 12 weeks. Inbox 43 -> 25; it had fallen 143 -> 43 without triage, so Miles cleared it himself. Read all 43 newest-first, promotions and social included. 25 left: 3 people waiting, 17 open actions (4 overdue, incl. a $6,464.70 ATO assessment due 23 Nov), 5 threads the Gmail tool returns empty and could not be read."
     }
   ]
 }
