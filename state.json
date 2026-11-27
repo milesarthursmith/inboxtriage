@@ -1,7 +1,7 @@
 {
-  "frontier": "2026/06/01",
-  "frontier_note": "Backlog is drained older than this. Pre-March is 33 human conversations plus 2 self-sent notes - nothing archivable there. Frontier held on 2026-08-29: the June window (2026/06/01-2026/07/01) had 11 threads and all 11 were archivable, so it does not advance yet.",
-  "inbox_count": 143,
+  "frontier": "2026/07/01",
+  "frontier_note": "Backlog is drained older than this. Pre-March is 33 human conversations plus 2 self-sent notes - nothing archivable there. Advanced on 2026-11-27: the June window (2026/06/01-2026/07/01) returned zero inbox threads, so it came back with nothing archivable. Only 5 inbox threads now predate 2026/11/01 and all 5 are live actions named in runs/2026-11-27.md - there is effectively no backlog left to drain.",
+  "inbox_count": 25,
   "runs": [
     {
       "date": "2026-08-29",
@@ -9,6 +9,13 @@
       "inbox_count": 143,
       "backlog_window": "2026/06/01-2026/07/01",
       "note": "First recorded run. Inbox 245 -> 143. Newest-first through 23 Aug plus the June window. 11 threads left from the sweep: 2 people waiting, 4 open actions, 5 trips ahead."
+    },
+    {
+      "date": "2026-11-27",
+      "archived": 17,
+      "inbox_count": 25,
+      "backlog_window": "2026/06/01-2026/07/01",
+      "note": "Whole inbox read (40 threads, +2 arrived mid-run). Inbox 40 -> 25. 3 people waiting, 16 open actions, 6 threads Gmail will not return to the API at all (left untouched per RULES fact 2). June window empty so frontier advanced to 2026/07/01. No run logs exist for Sep/Oct/Nov so the 143 -> 40 drop since 2026-08-29 is not attributable to this task. Tooling: THREAD_VIEW_SUMMARY returned 34 of 40 inbox threads - enumerate with THREAD_VIEW_IDS_ONLY only."
     }
   ]
 }
